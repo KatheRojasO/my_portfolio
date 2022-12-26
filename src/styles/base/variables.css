@@ -1,0 +1,24 @@
+/* Colors */
+:root{
+    --color-white-1: #FFFFFF;
+    --color-white-2: #F5F5F5;
+    --color-black: #000000;
+    --color-black-transparency-1: rgba(0, 0, 0, 0.6);
+    --color-black-transparency-1: rgba(0, 0, 0, 0.1);
+    --color-black-transparency-1: rgba(0, 0, 0, 0.25);
+    --color-light-gray-1: rgba(229, 229, 229, 1);
+    --color-light-gray-2: rgba(217, 217, 217, 1);
+}
+
+/* Space */
+:root{
+    --space-small: 8px;
+    --space-medium: 16px;
+    --space-big: 32px;
+}
+
+/* other */
+
+:root{
+    --border-radius: 8px;
+}

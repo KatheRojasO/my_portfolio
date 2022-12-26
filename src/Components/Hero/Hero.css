@@ -1,0 +1,31 @@
+.hero-section {
+	/* Sizing */
+    width: 100vw;
+	height: 100vh;	
+
+	/* flexbox */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	/* text styles */
+	text-align: center;
+
+	/* Background styles */
+    background-image: url(../../assets/me_hero.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+	
+}
+
+.hero-txt{
+	text-align: center;
+	position: absolute;
+	font-size: 24px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-96%, -170%);
+}
+
