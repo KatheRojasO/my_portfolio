@@ -12,7 +12,7 @@
 	text-align: center;
 
 	/* Background styles */
-    background-image: url(../../assets/me_hero.jpg);
+    background-image: url(../../assets/me_hero.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -26,6 +26,6 @@
 	font-size: 24px;
 	top: 50%;
 	left: 50%;
-	transform: translate(-96%, -170%);
+	transform: translate(-160%, -50%);
 }
 

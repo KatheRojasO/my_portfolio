@@ -1,0 +1,21 @@
+svg {
+    width: 24px;
+    height: 24px;
+}
+
+.phone, 
+.email,
+.location {
+    display: flex;
+    margin: 20px 40px;
+}
+
+.phone p,
+.email p,
+.location p {
+    margin: 0 20px;
+}
+
+.info-section{
+    margin: 40px 0;
+}
