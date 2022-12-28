@@ -1,0 +1,24 @@
+.tech-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+.tech-info{
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.tech-section > h1{
+    margin: 30px 40px;
+    padding-top: 40px;
+}
+
+.tech-section > p{
+    margin-bottom: 30px;
+}
+
+.tech-section {
+    background-color: #E5E5E5;
+}

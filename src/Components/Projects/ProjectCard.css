@@ -1,0 +1,16 @@
+.project-info > img{
+    height: 80px;
+    width: 105px;
+    border-radius: 20px;
+}
+
+.project-info > p {
+    margin: 0;
+    font-size: 11px;
+}
+
+.project-info{
+    margin-right: 30px;
+    margin-top: 15px;
+}
+

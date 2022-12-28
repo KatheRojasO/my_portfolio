@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "React",
+    "image":"react.png"
+  },
+
+	{
+    "id": 2,
+    "name": "JS",
+    "image":"js.png"
+  },
+
+	{
+    "id": 3,
+    "name": "TS",
+    "image":"ts.png"
+  },
+
+	{
+    "id": 4,
+    "name": "Recoil",
+    "image":"recoil.png"
+  },
+
+	{
+    "id": 5,
+    "name": "Firebase",
+    "image":"firebase.png"
+  },
+	
+	{
+    "id": 6,
+    "name": "Figma",
+    "image":"figma.png"
+  },
+	
+	{
+    "id": 7,
+    "name": "NodeJS",
+    "image":"node.png"
+  },
+
+	
+	{
+    "id": 8,
+    "name": "Sass",
+    "image":"sass.png"
+  },
+
+	
+	{
+    "id": 9,
+    "name": "AWS",
+    "image":"aws.png"
+  }
+]

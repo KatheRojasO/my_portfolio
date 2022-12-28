@@ -1,0 +1,126 @@
+[
+  {
+    "id": 1,
+    "name": "Portfolio website",
+    "description": "A project where people interested in my work can see my best and latest projects, so they can be interested in work with me",
+    "tech": [
+      "JavaScript",
+      "CSS",
+      "React",
+      "GitHub"
+    ],
+    "image":"portfolio.jpg",
+    "state": "Done"
+  },
+  {
+    "id": 2,
+    "name": "Vegan restaurant",
+    "description": "This project allows to further develop cleancode practice in a multi page website. Also teaches to write complex JSON files to simulate data coming from an API.",
+    "tech": [
+      "JavaScript",
+      "CSS",
+      "React",
+      "GitHub",
+      "Recoil"
+    ],
+    "image":"veganrestaurant.jpg",
+    "state": "COMMING SOON"
+  },
+  {
+    "id": 3,
+    "name": "Package tracker",
+    "description": "A project where they switch from a static JSON file to a real API call to obtain and present data from a server.",
+    "tech": [
+      "JavaScript",
+      "CSS",
+      "React",
+      "GitHub",
+      "Context API",
+      "FireStorage"
+    ],
+    "image":"packagetracker.jpg",
+    "state": "COMMING SOON"
+  },
+  {
+    "id": 4,
+    "name": "TTD Todo",
+    "description": "Practice Test Driven Development testing techniques on a project that every developer is familiar with, so the student focuses on learning unit testing without pressure.",
+    "tech": [
+      "JavaScript",
+      "CSS",
+      "React",
+      "GitHub",
+      "Context API",
+      "FireStorage",
+      "Jest"
+    ],
+    "image":"todo_list.jpg",
+    "state": "COMMING SOON"
+  },
+  {
+    "id": 5,
+    "name": "Ecommerce site",
+    "description": "This project allows to further develop cleancode practice in a multi page website. Also teaches to write complex JSON files to simulate data coming from an API.",
+    "tech": [
+      "JavaScript",
+      "CSS",
+      "React",
+      "GitHub",
+      "Context API",
+      "FireStorage",
+      "Jest"
+    ],
+    "image":"ecommerce.jpg",
+    "state": "COMMING SOON"
+  },
+  {
+    "id": 6,
+    "name": "BBQ Restaurant",
+    "description": "This project combines the consumer facing site of a restaurant with the admin panel of the previous project. Students will learn to reutilize components and code from previous projects.",
+    "tech": [
+      "JavaScript",
+      "CSS",
+      "React",
+      "GitHub",
+      "Context API",
+      "FireStorage",
+      "Jest"
+    ],
+    "image":"bbqrestaurant.jpg",
+    "state": "COMMING SOON"
+  },
+  {
+    "id": 7,
+    "name": "Learning platform",
+    "description": "A small yet complete, Learning Management System (LMS) platform that allows to create student accounts and add more full stack features.",
+    "tech": [
+      "Typescript",
+      "SAAS",
+      "React",
+      "GitHub",
+      "Context API",
+      "FireStorage",
+      "FireAuth",
+      "Jest"
+    ],
+    "image":"learningplatform.jpg",
+    "state": "COMMING SOON"
+  },
+  {
+    "id": 8,
+    "name": "Netflix clone",
+    "description": "The final project to graduate from the program. It combines all the techniques mentioned in the Tech stack while taking into consideration the UI experience.",
+    "tech": [
+      "Typescript",
+      "SAAS",
+      "React",
+      "GitHub",
+      "Context API",
+      "FireStorage",
+      "FireAuth",
+      "Jest"
+    ],
+    "image":"netflix.jpg",
+    "state": "COMMING SOON"
+  }
+]

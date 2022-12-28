@@ -7,7 +7,8 @@ svg {
 .email,
 .location {
     display: flex;
-    margin: 20px 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
 }
 
 .phone p,
@@ -19,3 +20,11 @@ svg {
 .info-section{
     margin: 40px 0;
 }
+
+.contact-section > h1{
+    margin-top: 10px;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+
