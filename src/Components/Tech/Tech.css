@@ -16,9 +16,29 @@
 }
 
 .tech-section > p{
-    margin-bottom: 30px;
+    margin: 30px 40px;
 }
 
 .tech-section {
     background-color: #E5E5E5;
+}
+
+@media screen and (min-width: 375px) {
+    .tech-cards{
+        justify-content: space-between;
+    }  
+}
+
+@media screen and (min-width: 425px) {
+    .tech-section > h1{
+        margin: 30px 50px;
+    }
+
+    .tech-section > p{
+        margin: 30px 50px;
+    }
+
+    .tech-cards{
+        margin-left: 50px;
+    }
 }

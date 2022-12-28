@@ -27,4 +27,27 @@ svg {
     padding-top: 20px;
 }
 
+.contact-section > p{
+    margin: 0 40px;
+}
+
+@media screen and (min-width: 425px) {
+    .contact-section > h1{
+        margin-left: 60px;
+    }
+
+    .contact-section > p{
+        margin: 0 60px;
+    }
+
+    .phone, 
+    .email,
+    .location {
+        margin-left: 60px;
+    }
+    
+}
+
+
+
 

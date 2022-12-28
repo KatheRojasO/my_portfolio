@@ -14,3 +14,20 @@
     margin-top: 15px;
 }
 
+@media screen and (min-width: 375px) {
+    .project-info > img{
+        height: 100px;
+        width: 130px;
+        border-radius: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 425px) {
+    .project-info{
+        margin-right: 50px;
+        margin-top: 15px;
+    }
+    
+}
+
