@@ -52,3 +52,30 @@
     }
 }
 
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .project-info > img{
+        height: 90px;
+        width: 90px;
+        margin-right: 10px;  
+    }
+    
+    .projects-cards-container {
+        margin: 0;
+    }
+
+    .project-info > p {
+        font-size: 12px;
+    }
+}
+
+/* Desktop L */
+@media screen and (min-width: 1440px) {
+    .project-info > img{
+        height: 90px;
+        width: 140px;
+        margin-right: 10px;  
+    }
+    
+}
+

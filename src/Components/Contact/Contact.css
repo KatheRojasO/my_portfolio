@@ -1,3 +1,7 @@
+.contact-section {
+    height: 100vh;
+}
+
 svg {
     width: 24px;
     height: 24px;
@@ -33,11 +37,11 @@ svg {
 
 /* Mobile L */
 @media screen and (min-width: 425px) {
-    .contact-section > h1{
+    .contact-paragraph > h1{
         margin-left: 60px;
     }
 
-    .contact-section > p{
+    .contact-paragraph > p{
         margin: 0 60px;
     }
 
@@ -67,11 +71,50 @@ svg {
     .contact-paragraph {
         margin-left: 40px;
         margin-bottom: 30px;
+    }  
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .about-section {
+        height: 100vh;	
     }
 
-    
+    .contact-paragraph > h1 {
+        font-size: 36px;
+    }
 
+    .contact-paragraph > p{
+        font-size: 24px;
+    }
+
+    .phone p,
+    .email p,
+    .location p {
+        font-size: 24px;
+    }
+
+    .contact-paragraph {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
     
+    .info-section{
+        margin-top: 50px;
+        margin-right: 60px;
+    }
+}
+
+/* Desktop L*/
+@media screen and (min-width: 1440px) {
+    .info-section{
+        margin-right: 170px;
+    }  
+
+    .contact-paragraph {
+        margin-right: 80px;
+        margin-left: 100px;
+    }
 }
 
 

@@ -18,7 +18,6 @@
     background-repeat: no-repeat;
 	background-color: black;
     /*background-attachment: fixed;*/
-	
 }
 
 .hero-txt {
@@ -44,7 +43,6 @@
 }
 
 /* Tablet */
-
 @media screen and (min-width: 768px) {
     .hero-section {
 		background-size:contain;
@@ -56,4 +54,24 @@
 		transform: translate(-90%, -50%);
 	}
 }
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .hero-section {
+		background-position: 500px;
+	}
+
+	.hero-txt {
+		font-size: 36px;
+		transform: translate(-80%, -50%);
+	}
+}
+
+/* Desktop L*/
+@media screen and (min-width: 1440px) {
+	.hero-section {
+		background-position: 800px;
+	}
+}
+
 

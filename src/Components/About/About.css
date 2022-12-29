@@ -53,8 +53,47 @@ img {
         width: 240px;
         height: 400px;
     }
+}
 
-    
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .info-container > p {
+        font-size: 20px;
+    }
+
+    .info-container > h1 {
+        font-size: 36px;
+    }
+
+    .about-section {
+        height: 100vh;	
+    }
+
+    .image-container {
+        margin-bottom: 10px;
+    }
+}
+
+/* Desktop L*/
+@media screen and (min-width: 1440px) {
+    .info-container > p {
+        font-size: 24px;
+    }
+
+    .info-container > h1 {
+        font-size: 36px;
+    }
+
+    .image-container {
+        margin-right: 150px;
+        margin-bottom: 10px;
+    }
+
+    .info-container {
+        margin-left: 60px;
+        margin-right: 80px;
+    }
+	
 }
 
     
