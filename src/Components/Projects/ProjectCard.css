@@ -14,20 +14,41 @@
     margin-top: 15px;
 }
 
+/* mobile M */
 @media screen and (min-width: 375px) {
     .project-info > img{
         height: 100px;
         width: 130px;
         border-radius: 20px;
-    }
-    
+    }  
 }
 
+/* Mobile L */
 @media screen and (min-width: 425px) {
     .project-info{
         margin-right: 50px;
-        margin-top: 15px;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+    .project-info {
+        margin-right: 20px;
+    }
+
+    .project-info > img{
+        height: 80px;
+        width: 80px;  
+    }
+
+    .project-info > p {
+        font-size: 10px;
     }
     
+    .projects-cards-container {
+        margin-right: 25px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
 

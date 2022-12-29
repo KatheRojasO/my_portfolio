@@ -31,14 +31,23 @@
     margin-top: 30px;
 }
 
+/* mobile M */
 @media screen and (min-width: 375px) {
     .social-media{
         margin: 0 40px;
     }
 }
 
+/* mobile L */
 @media screen and (min-width: 425px) {
     .social-media{
         margin: 0 70px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .social-media{
+        margin: 0 200px;
     }
 }

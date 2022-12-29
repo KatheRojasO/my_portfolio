@@ -21,16 +21,17 @@ svg {
     margin: 40px 0;
 }
 
-.contact-section > h1{
+.contact-paragraph > h1{
     margin-top: 10px;
     margin-left: 40px;
     padding-top: 20px;
 }
 
-.contact-section > p{
+.contact-paragraph > p{
     margin: 0 40px;
 }
 
+/* Mobile L */
 @media screen and (min-width: 425px) {
     .contact-section > h1{
         margin-left: 60px;
@@ -44,9 +45,36 @@ svg {
     .email,
     .location {
         margin-left: 60px;
+    } 
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .contact-section {
+        display: flex;
+        align-items: center;
     }
+
+    .contact-paragraph > h1{
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .info-section{
+        margin-right: 40px;
+    }
+
+    .contact-paragraph {
+        margin-left: 40px;
+        margin-bottom: 30px;
+    }
+
+    
+
     
 }
+
+
 
 
 

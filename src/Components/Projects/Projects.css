@@ -4,25 +4,53 @@
     margin-left: 40px;
 }
 
-.project-section > p {
+.project-info-container > p {
     margin: 15px 40px;
 }
 
-.project-section > h1 {
+.project-info-container > h1 {
     margin-top: 30px;
     margin-left: 40px;
 }
 
+
+/* Mobile L */
 @media screen and (min-width: 425px) {
-    .project-section > p {
+    .project-info-container > p {
         margin: 0 60px;
     }
     
-    .project-section > h1 {
+    .project-info-container > h1 {
         margin-left: 60px;
     }
 
     .projects-cards{
         margin-left: 60px;
     }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) {
+    .project-section {
+        display: flex;
+        align-items: center;
+    }
+
+    .project-info-container > h1 {
+        margin-top: 0;
+        margin-left: 50px;
+    }
+
+    .project-info-container > p {
+        margin-left: 50px;
+        margin-right: 0;
+        padding-right: 20px;
+        font-size: 15px;
+    }
+
+    .projects-cards{
+        margin: 0;
+    }
+
+    
 }

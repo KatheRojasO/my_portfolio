@@ -32,6 +32,7 @@
 	color: white;
 }
 
+/* mobile L */
 @media screen and (min-width: 425px) {
     .hero-txt {
 		font-size: 17px;
@@ -39,6 +40,20 @@
 		left: 50%;
 		transform: translate(-100%, -120%);
 		margin: 0;
+	}
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+    .hero-section {
+		background-size:contain;
+		background-position:right;
+	}
+
+	.hero-txt {
+		font-size: 24px;
+		transform: translate(-90%, -50%);
 	}
 }
 

@@ -10,12 +10,12 @@
     margin-top: 15px;
 }
 
-.tech-section > h1{
+.tech-info > h1{
     margin: 30px 40px;
     padding-top: 40px;
 }
 
-.tech-section > p{
+.tech-info > p{
     margin: 30px 40px;
 }
 
@@ -23,12 +23,14 @@
     background-color: #E5E5E5;
 }
 
+/* Mobile M */
 @media screen and (min-width: 375px) {
     .tech-cards{
         justify-content: space-between;
     }  
 }
 
+/* Mobile L */
 @media screen and (min-width: 425px) {
     .tech-section > h1{
         margin: 30px 50px;
@@ -41,4 +43,32 @@
     .tech-cards{
         margin-left: 50px;
     }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) {
+    .tech-section {
+        display: flex;
+        align-items: center;
+    }
+
+    .tech-info > h1{
+        margin-left: 60px;
+        margin-top: 0;
+        padding: 0;
+    }
+    
+    .tech-info > p{
+        margin-left: 60px;
+        margin-right: 0;
+    }
+
+    .tech-cards{
+        margin-left: 50px;
+    }
+
+    .tech-cards-container{
+        margin: 50px 40px;
+    }
+   
 }

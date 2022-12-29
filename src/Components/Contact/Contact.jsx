@@ -4,10 +4,12 @@ import '../Contact/Contact.css';
 export default function Contact() {
   return (
     <div className='contact-section' id='contact'>
-      <h1>Contact</h1>
-      <p>Here you can find my contact information in case you're
-        interested in work with me
-      </p>
+      <div className='contact-paragraph'>
+        <h1>Contact</h1>
+        <p>Here you can find my contact information in case you're
+          interested in work with me
+        </p>
+      </div>
       <div className='info-section'>
         <div className='phone'>
           <svg viewBox="0 0 512 512">
