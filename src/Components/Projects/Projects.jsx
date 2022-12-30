@@ -23,6 +23,7 @@ export default function Projects() {
                 projectImage={project.image}
                 description={project.description}
                 projectTech={project.tech}
+                isProjectDone={project.done}
               />
             );
           })}

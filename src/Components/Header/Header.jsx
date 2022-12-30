@@ -7,7 +7,9 @@ export default function Header() {
   return (
     <div className='nav-main'>
       <nav className='nav-header'>
-        <img className='header-logo'src={logo} alt='page_logo'></img>
+        <Link to='hero' spy={true} smooth={true} offset={-50} duration={500}>
+          <img className='header-logo'src={logo} alt='page_logo'></img>
+        </Link>
         <ul className='menu'>
           <li className='nav-item'>
             <Link to='about' spy={true} smooth={true} offset={-50} duration={500}>About</Link>

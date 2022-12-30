@@ -10,7 +10,7 @@
       "GitHub"
     ],
     "image":"portfolio.jpg",
-    "state": "Done"
+    "done": true
   },
   {
     "id": 2,
@@ -24,7 +24,7 @@
       "Recoil"
     ],
     "image":"veganrestaurant.jpg",
-    "state": "COMMING SOON"
+    "done": false
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
       "FireStorage"
     ],
     "image":"packagetracker.jpg",
-    "state": "COMMING SOON"
+    "done": false
   },
   {
     "id": 4,
@@ -55,7 +55,7 @@
       "Jest"
     ],
     "image":"todo_list.jpg",
-    "state": "COMMING SOON"
+    "done": false
   },
   {
     "id": 5,
@@ -71,7 +71,7 @@
       "Jest"
     ],
     "image":"ecommerce.jpg",
-    "state": "COMMING SOON"
+    "done": false
   },
   {
     "id": 6,
@@ -87,7 +87,7 @@
       "Jest"
     ],
     "image":"bbqrestaurant.jpg",
-    "state": "COMMING SOON"
+    "done": false
   },
   {
     "id": 7,
@@ -104,7 +104,7 @@
       "Jest"
     ],
     "image":"learningplatform.jpg",
-    "state": "COMMING SOON"
+    "done": false
   },
   {
     "id": 8,
@@ -121,6 +121,6 @@
       "Jest"
     ],
     "image":"netflix.jpg",
-    "state": "COMMING SOON"
+    "done": false
   }
 ]
