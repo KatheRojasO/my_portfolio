@@ -21,6 +21,8 @@ export default function Projects() {
               <ProjectCard
                 projectName={project.name}
                 projectImage={project.image}
+                description={project.description}
+                projectTech={project.tech}
               />
             );
           })}

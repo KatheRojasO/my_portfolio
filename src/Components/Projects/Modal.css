@@ -1,0 +1,41 @@
+.modal-style {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #E5E5E5;
+    z-index: 1000;
+    width: 280px;
+}
+
+.overlay-style {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+}
+
+.modal-style > img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+	left: 50%;
+    transform: translate(580%, -1200%);
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+    .modal-style {
+        width: 700px;
+        height: 350px;
+    }
+
+    .modal-style > img {
+        transform: translate(1600%, -850%);
+    }
+}
+

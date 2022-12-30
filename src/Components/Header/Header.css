@@ -45,10 +45,6 @@ li {
 	float: left;
 }
 
-li button{
-	display: block;
-}
-
 /* Mobile M */
 @media screen and (min-width: 375px) {
     .nav-item > a{
