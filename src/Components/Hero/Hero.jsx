@@ -1,12 +1,15 @@
-import React from 'react';
-import '../Hero/Hero.css';
+import React from "react";
+import "../Hero/Hero.css";
 
 export default function Hero() {
   return (
-  	<div>
-			<section className='hero-section' id='hero'>
-        <p className='hero-txt'>Hello there! I’m Katheryn Rojas a Colombian frontend developer in Sweden.</p>
-      </section>
-    </div>
-  )
+    <section className="hero-section" id="hero">
+      <h2 className="hero-title">
+        <span className="title-word word-1">Hi, I'm Katheryn</span>
+        <span className="title-word word-2">a </span><br/>
+        <span className="title-word word-3">Frontend Developer</span><br/>
+        <span className="title-word word-4">from Colombia</span>
+      </h2>
+    </section>
+  );
 }
