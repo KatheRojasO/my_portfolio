@@ -13,5 +13,10 @@ p {
     color:var(--blue-king);
 }
 
+button {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-weight: bold;
+}
+
 
 

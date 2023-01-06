@@ -12,9 +12,9 @@
     margin: 15px 40px;
 }
 
-.project-info-container > h1 {
-    
-    margin-left: 40px;
+.project-info-container > h2 {
+    padding-top: var(--space-xbig);
+    margin-left: var(--space-xbig);
 }
 
 /* Mobile L */

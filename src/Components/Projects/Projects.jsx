@@ -4,10 +4,22 @@ import ProjectCard from "./ProjectCard";
 import "../Projects/Projects.css";
 
 export default function Projects() {
+  const projectCards = data.map((project) => {
+    return (
+      <ProjectCard
+        projectName={project.name}
+        projectImage={project.image}
+        description={project.description}
+        projectTech={project.tech}
+        isProjectDone={project.done}
+      />
+    );
+  })
+
   return (
     <div id="projects">
       <div className="project-info-container">
-        <h1>Projects</h1>
+        <h2>Projects</h2>
         <p>
           I've been brushing my skills as a frontend developer and here you can
           find my last art pieces which were created during a frontend course
@@ -16,17 +28,7 @@ export default function Projects() {
       </div>
       <div className="projects-cards-container">
         <div className="projects-cards">
-          {data.map((project) => {
-            return (
-              <ProjectCard
-                projectName={project.name}
-                projectImage={project.image}
-                description={project.description}
-                projectTech={project.tech}
-                isProjectDone={project.done}
-              />
-            );
-          })}
+          {projectCards}
         </div>
       </div>
     </div>
