@@ -1,10 +1,16 @@
-h1 {
+h1, h2 {
     font-weight: bold ;
     font-size: 36px;
+    color:var(--blue-king);
 }
 
 a { 
     font-size: 16px;
+    color:var(--blue-king);
+}
+
+p {
+    color:var(--blue-king);
 }
 
 

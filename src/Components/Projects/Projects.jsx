@@ -5,7 +5,7 @@ import "../Projects/Projects.css";
 
 export default function Projects() {
   return (
-    <div className="project-section" id="projects">
+    <div id="projects">
       <div className="project-info-container">
         <h1>Projects</h1>
         <p>

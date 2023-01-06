@@ -1,5 +1,5 @@
 .footer-section {
-    background-color: #D9D9D9;
+    background-color: var(--blue-king);
     height: 100px;
     width: 100%;
 }

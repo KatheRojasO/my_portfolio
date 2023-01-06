@@ -5,7 +5,7 @@ import "../Tech/Tech.css";
 
 export default function Tech() {
   return (
-    <div className="tech-section" id="tech">
+    <div id="tech">
       <div className="tech-info">
         <h1>Technologies I've used</h1>
         <p>To develop the different apps and websites, I had to learn:</p>

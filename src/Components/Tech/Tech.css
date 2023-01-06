@@ -1,5 +1,5 @@
-.tech-section {	
-    background-color: #E5E5E5;
+#tech{	
+    background-color: var(--white);
 }
 
 .tech-cards{

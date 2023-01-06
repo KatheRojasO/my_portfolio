@@ -1,9 +1,10 @@
 import React from 'react';
+import Footer from '../Footer/Footer'
 import '../Contact/Contact.css';
 
 export default function Contact() {
   return (
-    <div className='contact-section' id='contact'>
+    <div id='contact'>
       <div className='contact-paragraph'>
         <h1>Contact</h1>
         <p>Here you can find my contact information in case you're
@@ -36,6 +37,7 @@ export default function Contact() {
           <p>Stockholm, Sweden</p>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

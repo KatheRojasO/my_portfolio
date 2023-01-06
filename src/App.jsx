@@ -17,7 +17,6 @@ export default function App() {
       <Projects/>
       <Tech/>
       <Contact/>
-      <Footer/>
     </div>
   );
 }
