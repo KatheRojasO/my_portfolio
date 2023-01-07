@@ -7,13 +7,7 @@ export default function Projects() {
   
   const projectCards = data.map((project) => {
     return (
-      <ProjectCard
-        projectName={project.name}
-        projectImage={project.image}
-        description={project.description}
-        projectTech={project.tech}
-        isProjectDone={project.done}
-      />
+      <ProjectCard key={project.id} project={project} />
     );
   })
 
