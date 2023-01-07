@@ -9,14 +9,9 @@
     margin-right: 30px;
 }
 
-.tech-info{
-    margin-right: 30px;
-    margin-top: 15px;
-}
-
-.tech-info > h1{
+.tech-info > h2{
     margin: 30px 40px;
-    padding-top: 40px;
+    
 }
 
 .tech-info > p{
@@ -32,7 +27,7 @@
 
 /* Mobile L */
 @media screen and (min-width: 425px) {
-    .tech-info > h1{
+    .tech-info > h2{
         margin: 30px 50px;
     }
 

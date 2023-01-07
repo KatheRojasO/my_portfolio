@@ -2,13 +2,8 @@ import React, { useState } from "react";
 import "../Projects/ProjectCard.css";
 import Modal from "./Modal";
 
-export default function ProjectCard({
-  projectName,
-  projectImage,
-  description,
-  projectTech,
-  isProjectDone,
-}) {
+export default function ProjectCard({ projectName, projectImage, description, projectTech, isProjectDone,}) {
+  
   const cardImage = require(`../../assets/img/${projectImage}`);
 
   const [isOpen, setIsOpen] = useState(false);
@@ -17,11 +12,7 @@ export default function ProjectCard({
     if (isProjectDone === true) {
       return (
         <div className="project-info">
-          <img
-            src={cardImage}
-            alt="not found"
-            onClick={() => setIsOpen(true)}
-          />
+          <img src={cardImage} alt="not found" onClick={() => setIsOpen(true)} />
           <p>{projectName}</p>
         </div>
       );

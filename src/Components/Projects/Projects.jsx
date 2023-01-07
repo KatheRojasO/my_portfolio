@@ -1,9 +1,10 @@
 import React from "react";
-import data from "../../data.json";
+import data from "../../projectData.json";
 import ProjectCard from "./ProjectCard";
 import "../Projects/Projects.css";
 
 export default function Projects() {
+  
   const projectCards = data.map((project) => {
     return (
       <ProjectCard

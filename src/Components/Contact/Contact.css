@@ -2,9 +2,15 @@
     background-color: var(--cream);
 }
 
-svg {
-    width: 24px;
-    height: 24px;
+.phone img,
+.email img {
+    width: 20px;
+    height: 17px;
+}
+
+.location img {
+    width: 19px;
+    height: 22px;
 }
 
 .phone, 
