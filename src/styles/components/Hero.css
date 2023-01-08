@@ -97,13 +97,17 @@
 }
 
 /* Desktop */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1080px) {
   #hero {
-    background-position: 500px;
+    background-position: 450px;
   }
 
   .hero-title {
-    font-size: 36px;
+    font-size: 40px;
+  }
+
+  .hero-title {
+    transform: translate(-50%, 20%);
   }
 }
 
