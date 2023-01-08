@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from 'react-scroll';
-import '../Header/Header.css';
-const logo = require('../../assets/logo.png');
+const logo = require('../../assets/img/logo.png');
 
 export default function Header() {
   return (

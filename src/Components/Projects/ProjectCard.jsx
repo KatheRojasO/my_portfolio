@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../Projects/ProjectCard.css";
 import Modal from "./Modal";
 
 export default function ProjectCard( { project }) {

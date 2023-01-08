@@ -1,5 +1,4 @@
 import React from "react";
-import "../Tech/TechCard.css";
 
 export default function TechCard({ techName, techIcon }) {
   const cardIcon = require(`../../assets/icons/${techIcon}`);

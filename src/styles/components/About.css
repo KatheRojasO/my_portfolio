@@ -58,32 +58,37 @@
 }
 
 /* Desktop */
-@media screen and (min-width: 1024px) {    
+@media screen and (min-width: 1080px) { 
+    #about {
+        padding: 40px 120px;
+    }   
+
     .info-container > p {
         font-size: 20px;
     }
 }
 
-/* Desktop L*/
-@media screen and (min-width: 1440px) {
-    #about {
-        padding: 40px 120px;
+@media screen and (min-width: 1280px) {
+    .info-container {
+        margin-left: 60px;
+        margin-right: 80px;
     }
 
+    .image-container {
+        margin-right: 110px;
+        margin-bottom: 10px;
+    }
+  }
+
+/* Desktop L*/
+@media screen and (min-width: 1440px) {
     .info-container > p {
         font-size: 24px;
     }
 
     .image-container {
         margin-right: 150px;
-        margin-bottom: 10px;
-    }
-
-    .info-container {
-        margin-left: 60px;
-        margin-right: 80px;
-    }
-	
+    }	
 }
 
     

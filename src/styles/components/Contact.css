@@ -61,7 +61,11 @@
 }
 
 /* Desktop */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1080px) {
+    #contact {
+        padding: 40px 150px 40px 160px;
+    }
+
     .contact-paragraph > h2 {
         font-size: 36px;
     }
@@ -90,6 +94,13 @@
     .location img {
         width: 25px;
         height: 30px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .tech-cards{
+        margin-left: 100px;
+        margin-right: 110px;
     }
 }
 

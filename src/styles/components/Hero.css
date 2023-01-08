@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../../assets/me_hero.png);
+  background-image: url(../../assets/img/me_hero.png);
   background-size: 4px 4px;
   background-size: cover;
   background-position: center center;
@@ -104,6 +104,12 @@
 
   .hero-title {
     font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  #hero {
+    background-position: 600px;
   }
 }
 

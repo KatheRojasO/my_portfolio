@@ -1,5 +1,4 @@
 import React from "react";
-import "../Footer/Footer.css";
 import linkedinIcon from '../../assets/icons/linkedin.png';
 import githubIcon from '../../assets/icons/github.png';
 import instagramICon from '../../assets/icons/instagram.png';

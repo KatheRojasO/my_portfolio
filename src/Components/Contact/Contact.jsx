@@ -1,5 +1,4 @@
 import React from 'react';
-import '../Contact/Contact.css';
 import phone from '../../assets/icons/phone.png';
 import envelope from '../../assets/icons/envelope.png';
 import location from '../../assets/icons/location.png';

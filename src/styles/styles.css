@@ -1,6 +1,18 @@
 /* Base */
 @import './base/layout.css';
 @import './base/typography.css';
-@import './base/variables.css'
+@import './base/variables.css';
 
 /* Components */
+@import './components/Header.css';
+@import './components/Hero.css';
+@import './components/About.css';
+@import './components/Projects.css';
+@import './components/ProjectCard.css';
+@import './components/Modal.css';
+@import './components/Tech.css';
+@import './components/TechCard.css';
+@import './components/Contact.css';
+@import './components/Footer.css';
+
+

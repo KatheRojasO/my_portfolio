@@ -1,5 +1,4 @@
 import React from "react";
-import "../Hero/Hero.css";
 
 export default function Hero() {
   return (

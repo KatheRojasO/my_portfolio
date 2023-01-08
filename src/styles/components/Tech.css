@@ -55,21 +55,27 @@
 }
 
 /* Desktop */
-@media screen and (min-width: 1024px) {    
+@media screen and (min-width: 1080px) {    
+    #tech {
+        padding: 60px 100px 60px 140px;
+    }
+    
     .tech-info > p{
         font-size: 24px;
         margin-right: 10px;
     }
 }
 
+@media screen and (min-width: 1280px) {
+    .tech-cards{
+        margin-left: 100px;
+        margin-right: 110px;
+    }
+}
+
 /* Desktop L*/
 @media screen and (min-width: 1440px) {
-    #tech {
-        padding: 60px 100px 60px 180px;
-    }
-
     .tech-cards{
         margin-left: 200px;
-        margin-right: 110px;
     }
 }

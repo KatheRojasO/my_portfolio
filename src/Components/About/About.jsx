@@ -1,6 +1,5 @@
 import React from "react";
-import "../About/About.css";
-const img = require("../../assets/me_about.png");
+const img = require("../../assets/img/me_about.png");
 
 export default function About() {
   return (

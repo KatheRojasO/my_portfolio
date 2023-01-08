@@ -1,7 +1,6 @@
 import React from "react";
-import techData from "../../techData.json";
+import techData from "../../JsonFiles/techData.json";
 import TechCard from "./TechCard";
-import "../Tech/Tech.css";
 
 export default function Tech() {
 
