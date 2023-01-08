@@ -1,4 +1,4 @@
-.hero-section {
+#hero {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -85,7 +85,7 @@
 
 /* Tablet */
 @media screen and (min-width: 768px) {
-  .hero-section {
+  #hero {
     background-size: contain;
     background-position: right;
   }
@@ -98,7 +98,7 @@
 
 /* Desktop */
 @media screen and (min-width: 1024px) {
-  .hero-section {
+  #hero {
     background-position: 500px;
   }
 
@@ -109,9 +109,11 @@
 
 /* Desktop L*/
 @media screen and (min-width: 1440px) {
-  
+  #hero {
+    background-position: 700px;
+  }
 
   .hero-title {
-    transform: translate(-50%, 20%);
+    transform: translate(-30%, 20%);
   }
 }

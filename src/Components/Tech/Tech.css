@@ -55,26 +55,19 @@
 }
 
 /* Desktop */
-@media screen and (min-width: 1024px) {
-    .tech-section {
-        height: 100vh;	
-    }
-
-    .tech-info > h1{
-        font-size: 36px;
-    }
-    
+@media screen and (min-width: 1024px) {    
     .tech-info > p{
         font-size: 24px;
-    }
-
-    .tech-info {
-        margin-left: 60px;
+        margin-right: 10px;
     }
 }
 
 /* Desktop L*/
 @media screen and (min-width: 1440px) {
+    #tech {
+        padding: 60px 100px 60px 180px;
+    }
+
     .tech-cards{
         margin-left: 200px;
         margin-right: 110px;

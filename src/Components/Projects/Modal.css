@@ -143,3 +143,19 @@
         margin-right: 5px;
     }
 }
+
+/* Desktop */
+
+@media screen and (min-width: 1024px) {
+    .modal-info > ul {
+        justify-content: space-between;
+        margin: 0 2px 0 10px;
+    }
+
+    .modal-info > h2,
+    .modal-info > p  {
+        margin-left: 15px;
+    }
+
+    
+}

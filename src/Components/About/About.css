@@ -58,32 +58,20 @@
 }
 
 /* Desktop */
-@media screen and (min-width: 1024px) {
-    #about {
-        height: 100vh;	
-    }
-    
+@media screen and (min-width: 1024px) {    
     .info-container > p {
         font-size: 20px;
-    }
-
-    .info-container > h1 {
-        font-size: 36px;
-    }
-
-    .image-container {
-        margin-bottom: 10px;
     }
 }
 
 /* Desktop L*/
 @media screen and (min-width: 1440px) {
-    .info-container > p {
-        font-size: 24px;
+    #about {
+        padding: 40px 120px;
     }
 
-    .info-container > h1 {
-        font-size: 36px;
+    .info-container > p {
+        font-size: 24px;
     }
 
     .image-container {

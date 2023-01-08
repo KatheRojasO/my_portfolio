@@ -73,6 +73,20 @@
     }
 }
 
+/* Desktop L */
+@media screen and (min-width: 1440px) {
+    .tech-img > img {
+        height: 80px;
+        width: 80px;
+    }
+    
+    .tech-img{
+        width: 90px;
+        height: 90px; 
+    }
+    
+} 
+
 
 
 
