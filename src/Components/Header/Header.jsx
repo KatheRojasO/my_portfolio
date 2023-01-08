@@ -19,7 +19,7 @@ export default function Header() {
             <p>Katheryn Rojas</p>
           </Link>
           <li className='nav-item'>
-            <Link to='tech' spy={true} smooth={true} offset={-80} duration={500}>Tech</Link>
+            <Link to='tech' spy={true} smooth={true} offset={-60} duration={500}>Tech</Link>
           </li>
           <li className='nav-item'>
             <Link to='contact' spy={true} smooth={true} offset={-60} duration={500}>Contact</Link>

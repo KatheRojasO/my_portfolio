@@ -48,10 +48,24 @@
     "image":"sass.png"
   },
 
-	
+
 	{
     "id": 9,
     "name": "AWS",
     "image":"aws.png"
+  },
+
+
+	{
+    "id": 10,
+    "name": "Mongodb",
+    "image":"mongo.png"
+  },
+
+
+	{
+    "id": 11,
+    "name": "PostgreSQL",
+    "image":"postgresql.png"
   }
 ]

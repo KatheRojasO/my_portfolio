@@ -1,5 +1,6 @@
 #contact {
     background-color: var(--cream);
+    padding: 30px 40px;
 }
 
 .phone img,
@@ -17,8 +18,7 @@
 .email,
 .location {
     display: flex;
-    margin-left: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .phone p,
@@ -27,66 +27,46 @@
     margin: 0 20px;
 }
 
-.info-section{
-    margin: 40px 0;
-}
-
-.contact-paragraph > h1{
-    margin-top: 10px;
-    margin-left: 40px;
-    padding-top: 20px;
-}
-
 .contact-paragraph > p{
-    margin: 0 40px;
+    margin: 20px 0 40px 0;
 }
+.contact-paragraph > h2{
+    margin: 0;
+}
+
+/* Mobile M */
+@media screen and (min-width: 375px) {
+    #contact {
+        padding: 35px 45px;
+    }
+} 
 
 /* Mobile L */
 @media screen and (min-width: 425px) {
-    .contact-paragraph > h1{
-        margin-left: 60px;
+    #contact {
+        padding: 40px 55px;
     }
-
-    .contact-paragraph > p{
-        margin: 0 60px;
-    }
-
-    .phone, 
-    .email,
-    .location {
-        margin-left: 60px;
-    } 
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) {
-    .contact-section {
+    #contact {
         display: flex;
         align-items: center;
     }
 
-    .contact-paragraph > h1{
-        margin-top: 0;
-        padding-top: 0;
+    .contact-paragraph > p {
+        margin-right: 50px;
     }
-
-    .info-section{
-        margin-right: 40px;
-    }
-
-    .contact-paragraph {
-        margin-left: 40px;
-        margin-bottom: 30px;
-    }  
 }
 
 /* Desktop */
 @media screen and (min-width: 1024px) {
-    .about-section {
+    #contact {
         height: 100vh;	
     }
 
-    .contact-paragraph > h1 {
+    .contact-paragraph > h2 {
         font-size: 36px;
     }
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../Footer/Footer';
 import '../Contact/Contact.css';
 import phone from '../../assets/icons/phone.png';
 import envelope from '../../assets/icons/envelope.png';
@@ -12,7 +11,7 @@ export default function Contact() {
   return (
     <div id='contact'>
       <div className='contact-paragraph'>
-        <h1>Contact</h1>
+        <h2>Contact</h2>
         <p>Here you can find my contact information in case you're
           interested in work with me
         </p>
@@ -33,7 +32,6 @@ export default function Contact() {
           <p>Stockholm, Sweden</p>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }
