@@ -1,7 +1,8 @@
 .project-info > img{
-    height: 80px;
-    width: 105px;
+    height: 85px;
+    width: 115px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .project-info > p {
@@ -11,15 +12,10 @@
     font-weight: bold;
 }
 
-.project-info {
-    margin-right: 30px;
-    margin-top: 15px;
-}
-
 .coming-soon {
     background-color: rgba(76, 84, 81, 0.5);
-    height: 80px;
-    width: 105px;
+    height: 85px;
+    width: 115px;
     border-radius: 10px;
     position: absolute;
     display: flex;
@@ -47,8 +43,7 @@
 @media screen and (min-width: 425px) {
     .project-info{
         margin-right: 50px;
-    }
-    
+    } 
 }
 
 /* tablet */
@@ -58,8 +53,8 @@
     }
 
     .project-info > img{
-        height: 80px;
-        width: 80px;  
+        height: 100px;
+        width: 115px;  
     }
 
     .project-info > p {
@@ -68,45 +63,8 @@
 
     .coming-soon {
         position: absolute;
-        background-color: rgba(85, 132, 118, .5); 
-        height: 80px;
-        width: 80px;
-        border-radius: 10px;
-    }
-    
-    .projects-cards-container {
-        margin-right: 25px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    .modal-container > img {
-        width: 300px;
-        height: 300px;
-    }
-
-    .modal-container {
-        flex-direction: row;
-        margin-left: 20px;
-        margin-top: 20px;
-    }
-
-    .btn-app {
-        margin-bottom: 5px;
-        margin-left:70px;   
-    }
-
-    .btn-git {
-        margin-bottom: 0;
-        margin-left:70px;
-    }
-    
-    .tech-options {
-        margin-bottom: 2px;
-    }
-
-    .modal-info > h1 {
-        margin-top: 0;
+        height: 100px;
+        width: 115px;
     }
 }
 

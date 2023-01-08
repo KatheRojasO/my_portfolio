@@ -14,7 +14,7 @@ export default function Modal({ open, project, onClose }) {
     <div>
       <div className="overlay-style" />
       <div className="modal-style">
-        <img src={closeButton} alt="not found" onClick={onClose} />
+        <img className='close-button' src={closeButton} alt="not found" onClick={onClose} />
         <div className="modal-container">
           <img src={modalImage} alt="not found" />
           <div className="modal-info">

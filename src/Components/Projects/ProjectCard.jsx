@@ -5,7 +5,6 @@ import Modal from "./Modal";
 export default function ProjectCard( { project }) {
 
   const { name, image, done} = project
-  console.log(project);
 
   const cardImage = require(`../../assets/img/${image}`);
 

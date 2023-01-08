@@ -13,7 +13,7 @@ export default function Projects() {
 
   return (
     <div id="projects">
-      <div className="project-info-container">
+      <div className="container">
         <h2>Projects</h2>
         <p>
           I've been brushing my skills as a frontend developer and here you can
@@ -21,10 +21,8 @@ export default function Projects() {
           with Novare Potencial.
         </p>
       </div>
-      <div className="projects-cards-container">
-        <div className="projects-cards">
-          {projectCards}
-        </div>
+      <div className="projects-cards">
+        {projectCards}
       </div>
     </div>
   );
