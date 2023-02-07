@@ -14,13 +14,14 @@
   justify-content: center;
 }
 
-
-
-@media screen and (min-width: 30rem) {
-  
-}
-
 @media screen and (min-width: 43rem) {
+  .about-img {
+    width: 300px;
+  }
+
+  #about .container {
+    flex-direction: row;    
+  }
 }
 
 @media screen and (min-width: 62rem) {
@@ -28,11 +29,7 @@
 
 /* Tablet */
 /* @media screen and (min-width: 768px) {
-    #about {
-        flex-direction: row;
-        align-items: center;
-        padding: 35px 60px;
-    }
+    
 
     .info-container > p {
         font-size: 15px;

@@ -78,10 +78,9 @@
 }
 
 @media screen and (min-width: 30rem) {
-  
   .hero-title {
     font-size: 28px;
-    top:20%;
+    top: 20%;
     left: 90%;
     padding: 0;
     margin: 0;
@@ -89,6 +88,9 @@
 }
 
 @media screen and (min-width: 43rem) {
+  .hero-title {
+    left: 450%;
+  }
 }
 
 @media screen and (min-width: 62rem) {

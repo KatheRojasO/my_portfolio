@@ -10,8 +10,13 @@ export default function Tech() {
   return (
     <div id="tech">
       <div className="container">
-        <h2>Technologies used</h2>
-        <p>Here you can find the different technologies I have used during all this time:</p>
+        <div>
+          <h2>Technologies used</h2>
+          <p>
+            Here you can find the different technologies I have used during all
+            this time:
+          </p>
+        </div>
         <div className="tech-cards">{items}</div>
       </div>
     </div>

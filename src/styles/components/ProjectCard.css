@@ -30,27 +30,9 @@
     align-items: center;
 }
 
-/* mobile M */
-/* @media screen and (min-width: 375px) {
-    .project-info > img{
-        height: 100px;
-        width: 130px;
-        border-radius: 20px;
-    } 
-
-    .coming-soon {
-        height: 100px;
-        width: 130px;
-        border-radius: 20px;
-    } 
-} */
-
-/* Mobile L */
-/* @media screen and (min-width: 425px) {
-    .project-info{
-        margin-right: 50px;
-    } 
-} */
+@media screen and (min-width: 43rem) {
+    
+  }
 
 /* tablet */
 /* @media screen and (min-width: 768px) {

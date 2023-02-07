@@ -20,60 +20,17 @@
 @media screen and (min-width: 30rem) {
   .tech-cards {
     grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
   }
 }
 
 @media screen and (min-width: 43rem) {
+  #tech .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+  }
 }
 
 @media screen and (min-width: 62rem) {
 }
-
-
-/* Tablets */
-/* @media screen and (min-width: 768px) {
-    #tech {
-        display: flex;
-        align-items: center;
-        padding: 35px 35px 35px 60px;
-    }
-
-    .tech-info {
-        margin-right: 40px;
-    }
-    
-    .tech-info > h2{
-        margin: 0;
-    }
-
-    .tech-cards{
-        grid-template-columns: repeat(4, 1fr); 
-        column-gap: 10px;
-    }
-} */
-
-/* Desktop */
-/* @media screen and (min-width: 1080px) {    
-    #tech {
-        padding: 60px 100px 60px 140px;
-    }
-    
-    .tech-info > p{
-        font-size: 24px;
-        margin-right: 10px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .tech-cards{
-        margin-left: 100px;
-        margin-right: 110px;
-    }
-} */
-
-/* Desktop L*/
-/* @media screen and (min-width: 1440px) {
-    .tech-cards{
-        margin-left: 200px;
-    }
-} */

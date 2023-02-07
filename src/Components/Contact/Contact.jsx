@@ -16,12 +16,14 @@ export default function Contact() {
   return (
     <div id="contact">
       <div className="container">
-        <h2>Contact</h2>
-        <p>
-          Here you can find my contact information in case you're interested in
-          work with me
-        </p>
-        {items}
+        <div>
+          <h2>Contact</h2>
+          <p>
+            Here you can find my contact information in case you're interested
+            in work with me
+          </p>
+        </div>
+        <div>{items}</div>
       </div>
     </div>
   );

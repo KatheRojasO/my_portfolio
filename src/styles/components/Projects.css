@@ -20,11 +20,19 @@
 }
 
 @media screen and (min-width: 43rem) {
+  #projects .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+  }
+
+  #projects .projects-cards {
+    column-gap: 8px;
+  }
 }
 
 @media screen and (min-width: 62rem) {
 }
-
 
 /* Tablet */
 /* @media screen and (min-width: 768px) {

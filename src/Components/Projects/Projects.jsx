@@ -10,7 +10,7 @@ export default function Projects() {
   return (
     <div id="projects">
       <div className="container">
-        <div>
+        <div className="section-description">
           <h2>Projects</h2>
           <p>
             I've been brushing my skills as a frontend developer and here you
