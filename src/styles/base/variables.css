@@ -4,14 +4,10 @@
     --black: #000000;
     --green-olive: #6F9353;
     --green-pine: #425F2A;
-    --black-with-transparency-1: rgba(0, 0, 0, 0.6);
     --mustard-yellow: #F9C61C;
     --burned-yellow: #F4B026;
     --cream: #FEF2D2;
-    --blue-king: #1F1841;
-    --background-1: rgb(90,224,255);
-    --background-gradient: linear-gradient(93.58deg,rgba(90,224,255,0.7234244039412641) 0%, rgba(97,216,16,0.2528361686471463) 100%)
-    
+    --blue-king: #1F1841;    
 }
 
 /* Space */

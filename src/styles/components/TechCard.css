@@ -1,7 +1,7 @@
 .tech-img{
     justify-content: center;
     align-items: center;
-    background:linear-gradient( 90deg, var(--mustard-yellow),var(--burned-yellow));
+    background:linear-gradient( 50deg, var(--burned-yellow),var(--mustard-yellow));
     border-radius: 10px;
     margin: 0;
     padding: 10px;
