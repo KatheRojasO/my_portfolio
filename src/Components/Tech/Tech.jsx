@@ -3,21 +3,16 @@ import techData from "../../JsonFiles/techData.json";
 import TechCard from "./TechCard";
 
 export default function Tech() {
-
   const items = techData.map((item) => {
     return <TechCard techName={item.name} techIcon={item.image} />;
   });
 
   return (
     <div id="tech">
-      <div className="tech-info">
-        <h2>Technologies I've used</h2>
-        <p>To develop the different apps and websites, I had to learn:</p>
-      </div>
-      <div className="tech-cards-container">
-        <div className="tech-cards">
-          {items}
-        </div>
+      <div className="container">
+        <h2>Technologies used</h2>
+        <p>Here you can find the different technologies I have used during all this time:</p>
+        <div className="tech-cards">{items}</div>
       </div>
     </div>
   );

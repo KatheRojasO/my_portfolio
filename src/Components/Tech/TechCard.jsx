@@ -6,12 +6,8 @@ export default function TechCard({ techName, techIcon }) {
   return (
     <div className="tech-card">
       <div className="tech-card-container">
-        <div className="tech-img">
-          <img src={cardIcon} alt="not found" />
-        </div>
-        <div className="tech-name">
-          <p>{techName}</p>
-        </div>
+        <img className="tech-img" src={cardIcon} alt="tech-icon" />
+        <p className="tech-name">{techName}</p>
       </div>
     </div>
   );
