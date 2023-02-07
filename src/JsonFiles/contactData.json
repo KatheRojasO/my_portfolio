@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "info": "073-111-11-11",
+      "image": "phone.png"
+    },
+  
+    {
+      "id": 2,
+      "info": "developer@developer.com",
+      "image": "envelope.png"
+    },
+  
+    {
+      "id": 3,
+      "info": "Stockholm - Sweden",
+      "image": "location.png"
+    }
+  ]

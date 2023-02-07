@@ -1,36 +1,28 @@
-import React from 'react';
-import phone from '../../assets/icons/phone.png';
-import envelope from '../../assets/icons/envelope.png';
-import location from '../../assets/icons/location.png';
-
-
+import React from "react";
+import data from "../../JsonFiles/contactData.json";
 
 export default function Contact() {
+  const items = data.map((item) => {
+    const contactIcon = require(`../../assets/icons/${item.image}`);
+
+    return (
+      <li id={item.id}>
+        <img className="icons" src={contactIcon} alt="contact-icon" />
+        <span>{item.info}</span>
+      </li>
+    );
+  });
 
   return (
-    <div id='contact'>
-      <div className='contact-paragraph'>
+    <div id="contact">
+      <div className="container">
         <h2>Contact</h2>
-        <p>Here you can find my contact information in case you're
-          interested in work with me
+        <p>
+          Here you can find my contact information in case you're interested in
+          work with me
         </p>
-      </div>
-      <div className='info-section'>
-        <div className='phone'>
-          <img src={phone} alt='phone_icon'/>
-          <p> 073-555-55</p>
-        </div>
-        
-        <div className='email'>
-          <img src={envelope} alt='mail_icon'/>
-          <p> developer@developer.com</p>
-        </div>
-        
-        <div className='location'>
-          <img src={location} alt='location_icon'/>
-          <p>Stockholm, Sweden</p>
-        </div>
+        {items}
       </div>
     </div>
-  )
+  );
 }
