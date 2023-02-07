@@ -10,3 +10,7 @@ body {
 	padding: 0;
 }
 
+.container {
+  padding: var(--space-big);
+}
+

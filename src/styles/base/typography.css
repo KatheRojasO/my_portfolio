@@ -2,6 +2,7 @@ h1, h2 {
     font-weight: bold ;
     font-size: 36px;
     color:var(--blue-king);
+    margin: 0;
 }
 
 a { 

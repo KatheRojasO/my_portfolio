@@ -2,14 +2,15 @@
   width: 100vw;
   height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
   background-image: url(../../assets/img/me_hero.png);
-  background-size: 4px 4px;
-  background-size: cover;
+  background-size: 650px;
   background-position: center center;
   background-repeat: no-repeat;
   background-color: var(--cream) 
+}
+
+#hero .container {
+  position: relative;
 }
 
 .title-word {
@@ -17,13 +18,12 @@
 }
 
 .hero-title {
+  position: absolute;
   font-weight: 900;
   font-size: 24px;
   text-transform: uppercase;
-  top: 50%;
-  left: 50%;
-  transform: translate(3%, 50%);
-  margin: 0;
+  top: 20%;
+  left: 70%;
 }
 
 .word-1 {
@@ -77,14 +77,14 @@
 }
 
 /* mobile L */
-@media screen and (min-width: 425px) {
+/* @media screen and (min-width: 425px) {
   .hero-title {
     font-size: 30px;
   }
-}
+} */
 
 /* Tablet */
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   #hero {
     background-size: contain;
     background-position: right;
@@ -94,10 +94,10 @@
     font-size: 30px;
     transform: translate(-30%, 20%);
   }
-}
+} */
 
 /* Desktop */
-@media screen and (min-width: 1080px) {
+/* @media screen and (min-width: 1080px) {
   #hero {
     background-position: 450px;
   }
@@ -109,16 +109,16 @@
   .hero-title {
     transform: translate(-50%, 20%);
   }
-}
+} */
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   #hero {
     background-position: 600px;
   }
-}
+} */
 
 /* Desktop L*/
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
   #hero {
     background-position: 700px;
   }
@@ -126,4 +126,4 @@
   .hero-title {
     transform: translate(-30%, 20%);
   }
-}
+} */
