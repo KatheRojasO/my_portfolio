@@ -44,4 +44,8 @@ ul {
   .container {
     padding: 90px;
   }
+
+  #contact .container {
+    padding: 90px 210px;
+  }
 }

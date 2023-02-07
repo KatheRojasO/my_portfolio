@@ -23,7 +23,7 @@ export default function Contact() {
             in work with me
           </p>
         </div>
-        <div>{items}</div>
+        <div className="info-container">{items}</div>
       </div>
     </div>
   );

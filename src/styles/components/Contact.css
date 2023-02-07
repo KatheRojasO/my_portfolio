@@ -20,3 +20,9 @@
     column-gap: 90px;
   }
 }
+
+@media screen and (min-width: 62rem) {
+  #contact .container {
+    column-gap: 150px;
+  }
+}
