@@ -3,45 +3,25 @@
     "id": 1,
     "name": "Portfolio website",
     "description": "A project where people interested in my work can see my best and latest projects, so they can be interested in work with me",
-    "tech": [
-      "JavaScript",
-      "CSS",
-      "React",
-      "Firebase",
-      "Figma",
-      "GitHub"
-    ],
-    "image":"portfolio.jpg",
+    "tech": ["JavaScript", "CSS", "React", "Firebase", "Figma", "GitHub"],
+    "image": "portfolio.jpg",
     "done": true
   },
   {
     "id": 2,
     "name": "Vegan restaurant",
-    "description": "This project allows to further develop cleancode practice in a multi page website. Also teaches to write complex JSON files to simulate data coming from an API.",
-    "tech": [
-      "JavaScript",
-      "CSS",
-      "React",
-      "GitHub",
-      "Recoil"
-    ],
-    "image":"veganrestaurant.jpg",
-    "done": false
+    "description": "This project allowed me to develop cleancode practice in a multi page website. Also teaches to write complex JSON files to simulate data coming from an API.",
+    "tech": ["JavaScript", "CSS", "React", "Firebase", "Figma", "GitHub"],
+    "image": "veganrestaurant.jpg",
+    "done": true
   },
   {
     "id": 3,
     "name": "Package tracker",
-    "description": "A project where they switch from a static JSON file to a real API call to obtain and present data from a server.",
-    "tech": [
-      "JavaScript",
-      "CSS",
-      "React",
-      "GitHub",
-      "Context API",
-      "FireStorage"
-    ],
-    "image":"packagetracker.jpg",
-    "done": false
+    "description": "A project where I switch from a static JSON file to a real API call to obtain and present data from a server.",
+    "tech": ["JavaScript", "CSS", "React", "Firebase", "Figma", "GitHub"],
+    "image": "packagetracker.jpg",
+    "done": true
   },
   {
     "id": 4,
@@ -56,7 +36,7 @@
       "FireStorage",
       "Jest"
     ],
-    "image":"todo_list.jpg",
+    "image": "todo_list.jpg",
     "done": false
   },
   {
@@ -72,7 +52,7 @@
       "FireStorage",
       "Jest"
     ],
-    "image":"ecommerce.jpg",
+    "image": "ecommerce.jpg",
     "done": false
   },
   {
@@ -88,7 +68,7 @@
       "FireStorage",
       "Jest"
     ],
-    "image":"bbqrestaurant.jpg",
+    "image": "bbqrestaurant.jpg",
     "done": false
   },
   {
@@ -105,7 +85,7 @@
       "FireAuth",
       "Jest"
     ],
-    "image":"learningplatform.jpg",
+    "image": "learningplatform.jpg",
     "done": false
   },
   {
@@ -122,7 +102,7 @@
       "FireAuth",
       "Jest"
     ],
-    "image":"netflix.jpg",
+    "image": "netflix.jpg",
     "done": false
   }
 ]

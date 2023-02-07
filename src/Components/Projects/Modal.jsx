@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Link } from "react-router-dom";
 const closeButton = require("../../assets/icons/close.png");
 
 export default function Modal({ open, project, onClose }) {

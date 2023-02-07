@@ -1,27 +1,23 @@
 #projects {
     background-color: var(--cream);
-    padding: 35px;
 } 
-
-.container > h2 {
-    margin: 0; 
-}
 
 #projects .projects-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 20px;
+    padding: 10px 10px;
 }
 
 /* mobile M */
-@media screen and (min-width: 375px) {
+/* @media screen and (min-width: 375px) {
     #projects {
         padding: 35px 45px;
     }
-}
+} */
 
 /* Mobile L */ 
-@media screen and (min-width: 425px) {
+/* @media screen and (min-width: 425px) {
     #projects .projects-cards {
         column-gap: 0;
         padding-left: 13px;
@@ -30,10 +26,10 @@
     .container > p {
         margin-bottom: 20px; 
     }
-}
+} */
 
 /* Tablet */
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     #projects {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -52,10 +48,10 @@
         padding: 0;
         margin-left: 20px;
     }
-}
+} */
 
 /* Desktop */
-@media screen and (min-width: 1080px) {
+/* @media screen and (min-width: 1080px) {
     #projects {
         padding: 60px 100px 60px 140px;
     }
@@ -64,18 +60,18 @@
         font-size: 20px;
         margin-right: 30px;
     }
-}
+} */
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
     #projects {
         padding: 60px 100px 60px 180px;
     }
-}
+} */
 
 /* Desktop L */
-@media screen and (min-width: 1440px) {    
+/* @media screen and (min-width: 1440px) {    
     .container > p {
         font-size: 24px; 
     }
-} 
+}  */
  

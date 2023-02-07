@@ -2,14 +2,10 @@ import React from "react";
 import data from "../../JsonFiles/projectData.json";
 import ProjectCard from "./ProjectCard";
 
-
 export default function Projects() {
-  
   const projectCards = data.map((project) => {
-    return (
-      <ProjectCard key={project.id} project={project} />
-    );
-  })
+    return <ProjectCard key={project.id} project={project} />;
+  });
 
   return (
     <div id="projects">
@@ -20,9 +16,7 @@ export default function Projects() {
           find my last art pieces which were created during a frontend course
           with Novare Potencial.
         </p>
-      </div>
-      <div className="projects-cards">
-        {projectCards}
+        <div className="projects-cards">{projectCards}</div>
       </div>
     </div>
   );

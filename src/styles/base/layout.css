@@ -3,6 +3,8 @@
 html{
   background-color: white;
   font-family: 'Gilroy-Medium', sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 body {
