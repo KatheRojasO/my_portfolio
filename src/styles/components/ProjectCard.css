@@ -1,93 +1,48 @@
-.project-info > img{
-    height: 85px;
-    width: 115px;
-    border-radius: 10px;
-    cursor: pointer;
+.project-info > img {
+  height: 85px;
+  width: 115px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .project-info > p {
-    margin-bottom: 10px;
-    margin-top: 0px;
-    font-size: 11px;
-    font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  font-size: 11px;
+  font-weight: bold;
 }
 
 .coming-soon {
-    background-color: rgba(76, 84, 81, 0.5);
-    height: 85px;
-    width: 115px;
-    border-radius: 10px;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
+  background-color: rgba(76, 84, 81, 0.5);
+  height: 85px;
+  width: 115px;
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
 .project-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (min-width: 43rem) {
-    
+  .project-info > p {
+    font-size: 15px;
   }
 
-/* tablet */
-/* @media screen and (min-width: 768px) {
-    .project-info {
-        margin-right: 20px;
-    }
+  .project-info > img {
+    height: 110px;
+    width: 125px;
+  }
 
-    .project-info > img{
-        height: 100px;
-        width: 115px;  
-    }
-
-    .project-info > p {
-        font-size: 10px;
-    }
-
-    .coming-soon {
-        height: 100px;
-        width: 115px;
-    }
-} */
-
-/* Desktop */
-/* @media screen and (min-width: 1024px) {    
-    .project-info > p {
-        font-size: 15px;
-    }
-
-    .project-info > img{
-        height: 110px;
-        width: 125px;  
-    }
-
-    .coming-soon {
-        height: 110px;
-        width: 125px; 
-    }
-} */
-
-/* Desktop L */
-/* @media screen and (min-width: 1440px) {
-    .project-info > img{
-        height: 90px;
-        width: 140px;
-        margin-right: 10px;  
-    }
-
-    .project-info > img{
-        height: 110px;
-        width: 140px;  
-    }
-
-    .coming-soon {
-        height: 110px;
-        width: 140px;   
-    }   
-} */
+  .coming-soon {
+    height: 110px;
+    width: 125px;
+  }
+}
 

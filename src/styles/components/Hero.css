@@ -89,61 +89,17 @@
 
 @media screen and (min-width: 43rem) {
   .hero-title {
-    left: 450%;
+    top: 40%;
+    left: 300%;
   }
 }
 
 @media screen and (min-width: 62rem) {
-}
-
-/* mobile L */
-/* @media screen and (min-width: 425px) {
-  .hero-title {
-    font-size: 30px;
-  }
-} */
-
-/* Tablet */
-/* @media screen and (min-width: 768px) {
   #hero {
     background-size: contain;
-    background-position: right;
   }
 
   .hero-title {
-    font-size: 30px;
-    transform: translate(-30%, 20%);
+    left: 900%;
   }
-} */
-
-/* Desktop */
-/* @media screen and (min-width: 1080px) {
-  #hero {
-    background-position: 450px;
-  }
-
-  .hero-title {
-    font-size: 40px;
-  }
-
-  .hero-title {
-    transform: translate(-50%, 20%);
-  }
-} */
-
-/* @media screen and (min-width: 1280px) {
-  #hero {
-    background-position: 600px;
-  }
-} */
-
-/* Desktop L*/
-/* @media screen and (min-width: 1440px) {
-  #hero {
-    background-position: 700px;
-  }
-
-  .hero-title {
-    transform: translate(-30%, 20%);
-  }
-} */
+}

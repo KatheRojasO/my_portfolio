@@ -16,67 +16,20 @@
 
 @media screen and (min-width: 43rem) {
   .about-img {
-    width: 300px;
+    width: 350px;
   }
 
   #about .container {
-    flex-direction: row;    
+    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 62rem) {
+  .about-img {
+    width: 400px;
+  }
+
+  .paragraph-container {
+    margin-right: 50px;
+  }
 }
-
-/* Tablet */
-/* @media screen and (min-width: 768px) {
-    
-
-    .info-container > p {
-        font-size: 15px;
-        padding-right: 35px;
-    }
-
-    .image-container {
-        width: 35%;
-        margin-right: 5px;    
-    }
-
-    .image-container > img {
-        width: 210px;
-        height: 350px;     
-    }
-} */
-
-/* Desktop */
-/* @media screen and (min-width: 1080px) { 
-    #about {
-        padding: 40px 120px;
-    }   
-
-    .info-container > p {
-        font-size: 20px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .info-container {
-        margin-left: 60px;
-        margin-right: 80px;
-    }
-
-    .image-container {
-        margin-right: 110px;
-        margin-bottom: 10px;
-    }
-  } */
-
-/* Desktop L*/
-/* @media screen and (min-width: 1440px) {
-    .info-container > p {
-        font-size: 24px;
-    }
-
-    .image-container {
-        margin-right: 150px;
-    }	
-} */

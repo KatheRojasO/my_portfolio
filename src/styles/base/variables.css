@@ -1,20 +1,20 @@
 /* Colors */
-:root{
-    --white: #FFFFFF;
-    --black: #000000;
-    --green-olive: #6F9353;
-    --green-pine: #425F2A;
-    --mustard-yellow: #F9C61C;
-    --burned-yellow: #F4B026;
-    --cream: #FEF2D2;
-    --blue-king: #1F1841;    
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --green-olive: #6f9353;
+  --green-pine: #425f2a;
+  --mustard-yellow: #f9c61c;
+  --burned-yellow: #f4b026;
+  --cream: #fef2d2;
+  --blue-king: #1f1841;
 }
 
 /* Space */
-:root{
-    --space-small: 8px;
-    --space-medium: 16px;
-    --space-big: 32px;
-    --space-xbig: 40px;
-    --space-xxbig: 60px;
+:root {
+  --space-small: 8px;
+  --space-medium: 16px;
+  --space-big: 32px;
+  --space-xbig: 40px;
+  --space-xxbig: 63px;
 }

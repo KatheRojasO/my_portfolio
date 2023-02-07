@@ -35,22 +35,3 @@
   }
 }
 
-/* Tablet */
-/* @media screen and (min-width: 768px) {
-    .social-media {
-        margin: 0 200px;
-    }
-} */
-
-/* Desktop */
-/* @media screen and (min-width: 1024px) {
-    .social-media{
-        margin: 0 300px;
-    }
-
-    .social-media > img {
-        width: 30px;
-        height: 30px;
-    }
-    
-} */
