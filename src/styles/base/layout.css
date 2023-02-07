@@ -13,18 +13,39 @@ body {
 }
 
 .container {
-  padding: var(--space-xbig);
+  padding: var(--space-big);
+  
 }
 
 #hero .container {
   padding: var(--space-medium);
+  
 }
 
 .modal-container > .container {
   padding: 20px var(--space-big) 30px;
+  
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 ul {
   list-style-type: none;
+}
+
+@media screen and (min-width: 30rem) {
+  
+}
+
+@media screen and (min-width: 43rem) {
+  
+}
+
+@media screen and (min-width: 62rem) {
+  
 }
 

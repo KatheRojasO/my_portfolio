@@ -13,17 +13,18 @@
   position: relative;
 }
 
-.title-word {
-  animation: color-animation 4s linear infinite;
-}
-
 .hero-title {
   position: absolute;
   font-weight: 900;
   font-size: 24px;
   text-transform: uppercase;
-  top: 20%;
-  left: 90%;
+  text-align:center;
+  top: 17%;
+  left: 70%;
+}
+
+.title-word {
+  animation: color-animation 4s linear infinite;
 }
 
 .word-1 {
@@ -74,6 +75,20 @@
   100% {
     color: var(--color-1);
   }
+}
+
+
+@media screen and (min-width: 30rem) {
+  
+  
+}
+
+@media screen and (min-width: 43rem) {
+  
+}
+
+@media screen and (min-width: 62rem) {
+  
 }
 
 /* mobile L */
