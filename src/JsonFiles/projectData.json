@@ -5,6 +5,8 @@
     "description": "A project where people interested in my work can see my best and latest projects, so they can be interested in work with me",
     "tech": ["JavaScript", "CSS", "React", "Firebase", "Figma", "GitHub"],
     "image": "portfolio.jpg",
+    "gitLink":"https://github.com/KatheRojasO/my_portfolio",
+    "website": "",
     "done": true
   },
   {
@@ -13,6 +15,8 @@
     "description": "This project allowed me to develop cleancode practice in a multi page website. Also teaches to write complex JSON files to simulate data coming from an API.",
     "tech": ["JavaScript", "CSS", "React", "Firebase", "Figma", "GitHub"],
     "image": "veganrestaurant.jpg",
+    "gitLink":"https://github.com/KatheRojasO/vegan-restaurant",
+    "website": "https://nordic-vegans.web.app/",
     "done": true
   },
   {
@@ -21,6 +25,8 @@
     "description": "A project where I switch from a static JSON file to a real API call to obtain and present data from a server.",
     "tech": ["JavaScript", "CSS", "React", "Firebase", "Figma", "GitHub"],
     "image": "packagetracker.jpg",
+    "gitLink":"https://github.com/KatheRojasO/package-tracker",
+    "website": "https://instapacket.web.app/",
     "done": true
   },
   {
@@ -37,6 +43,8 @@
       "Jest"
     ],
     "image": "todo_list.jpg",
+    "gitLink":"",
+    "website": "",
     "done": false
   },
   {
@@ -53,6 +61,8 @@
       "Jest"
     ],
     "image": "ecommerce.jpg",
+    "gitLink":"",
+    "website": "",
     "done": false
   },
   {
@@ -69,6 +79,8 @@
       "Jest"
     ],
     "image": "bbqrestaurant.jpg",
+    "gitLink":"",
+    "website": "",
     "done": false
   },
   {
@@ -86,6 +98,8 @@
       "Jest"
     ],
     "image": "learningplatform.jpg",
+    "gitLink":"",
+    "website": "",
     "done": false
   },
   {
@@ -103,6 +117,8 @@
       "Jest"
     ],
     "image": "netflix.jpg",
+    "gitLink":"",
+    "website":"",
     "done": false
   }
 ]

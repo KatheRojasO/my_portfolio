@@ -8,16 +8,26 @@ h1, h2 {
 a { 
     font-size: 16px;
     color:var(--blue-king);
+    font-weight: bold;
 }
 
 p {
     color:var(--blue-king);
 }
 
-button {
-    font-family: 'Gilroy-Medium', sans-serif;
-    font-weight: bold;
+.modal-container > .container > h2 {
+    font-size: 24px;
 }
+
+.modal-container > .container > a {
+    font-size: 16px;
+}
+
+.modal-container > .container > p {
+    margin: 0;
+    padding-bottom: var(--space-medium);
+}
+
 
 
 

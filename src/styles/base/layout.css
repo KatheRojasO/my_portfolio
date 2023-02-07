@@ -12,11 +12,19 @@ body {
 	padding: 0;
 }
 
+.container {
+  padding: var(--space-xbig);
+}
+
 #hero .container {
   padding: var(--space-medium);
 }
 
-.container {
-  padding: var(--space-xbig);
+.modal-container > .container {
+  padding: 20px var(--space-big) 30px;
+}
+
+ul {
+  list-style-type: none;
 }
 
