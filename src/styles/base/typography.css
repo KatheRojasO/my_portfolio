@@ -1,33 +1,41 @@
-h1, h2 {
-    font-weight: bold ;
-    font-size: 36px;
-    color:var(--blue-king);
-    margin: 0;
+h1,
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  color: var(--blue-king);
+  margin: 0;
 }
 
-a { 
-    font-size: 16px;
-    color:var(--blue-king);
-    font-weight: bold;
+a {
+  font-size: 16px;
+  color: var(--blue-king);
+  font-weight: bold;
 }
 
 p {
-    color:var(--blue-king);
+  color: var(--blue-king);
 }
 
 .modal-container > .container > h2 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .modal-container > .container > a {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .modal-container > .container > p {
-    margin: 0;
-    padding-bottom: var(--space-medium);
+  margin: 0;
+  padding-bottom: var(--space-medium);
 }
 
+@media screen and (min-width: 30rem) {
+  a {
+    font-size: 18px;
+  }
 
-
-
+  p,
+  .contact-info {
+    font-size: 20px;
+  }
+}

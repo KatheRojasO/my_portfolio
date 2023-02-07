@@ -6,7 +6,7 @@
   background-size: 650px;
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: var(--cream) 
+  background-color: var(--cream);
 }
 
 #hero .container {
@@ -18,7 +18,7 @@
   font-weight: 900;
   font-size: 24px;
   text-transform: uppercase;
-  text-align:center;
+  text-align: center;
   top: 17%;
   left: 70%;
 }
@@ -77,18 +77,21 @@
   }
 }
 
-
 @media screen and (min-width: 30rem) {
   
-  
+  .hero-title {
+    font-size: 28px;
+    top:20%;
+    left: 90%;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 43rem) {
-  
 }
 
 @media screen and (min-width: 62rem) {
-  
 }
 
 /* mobile L */

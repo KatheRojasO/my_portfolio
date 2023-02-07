@@ -8,7 +8,7 @@ export default function Contact() {
     return (
       <li id={item.id}>
         <img className="icons" src={contactIcon} alt="contact-icon" />
-        <span>{item.info}</span>
+        <span className="contact-info">{item.info}</span>
       </li>
     );
   });

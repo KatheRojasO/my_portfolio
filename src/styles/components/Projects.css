@@ -7,14 +7,16 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
-
-
-
 .project-info p {
-    margin: 0;
+  margin: 0;
 }
 
 @media screen and (min-width: 30rem) {
+  #projects .projects-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+  }
 }
 
 @media screen and (min-width: 43rem) {
@@ -23,24 +25,6 @@
 @media screen and (min-width: 62rem) {
 }
 
-/* mobile M */
-/* @media screen and (min-width: 375px) {
-    #projects {
-        padding: 35px 45px;
-    }
-} */
-
-/* Mobile L */
-/* @media screen and (min-width: 425px) {
-    #projects .projects-cards {
-        column-gap: 0;
-        padding-left: 13px;
-    }
-
-    .container > p {
-        margin-bottom: 20px; 
-    }
-} */
 
 /* Tablet */
 /* @media screen and (min-width: 768px) {

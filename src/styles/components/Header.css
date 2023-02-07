@@ -45,13 +45,42 @@ a:active {
   color: #F4B026;
 } 
 
+@media screen and (min-width: 30rem) {
+  .nav-header ul.menu > a {
+    display: flex;
+    gap: var(--space-small);
+    position: absolute;
+    top: 20px;
+    margin-left: var(--space-medium);
+  }
 
-/* Mobile L */
-/* @media screen and (min-width: 425px) {
-    a {
-      font-size: 18px;
-    }
-  } */
+  .nav-header ul.menu {
+    display: block;
+    text-align: right;
+    padding-top: 12px;
+    margin-right: var(--space-small);
+  }
+
+  ul .nav-item {
+    margin-right: var(--space-medium);
+    display: inline;
+    margin: 5px;
+  }
+
+  .nav-header p {
+    display: inline-block;
+    margin: 0;
+    padding-top: var(--space-small);
+  }
+ 
+}
+
+@media screen and (min-width: 43rem) {
+}
+
+@media screen and (min-width: 62rem) {
+}
+
 
 /* Tablet */
 /* @media screen and (min-width: 768px) {
