@@ -10,7 +10,11 @@ body {
 	padding: 0;
 }
 
+#hero .container {
+  padding: var(--space-medium);
+}
+
 .container {
-  padding: var(--space-big);
+  padding: var(--space-xbig);
 }
 
