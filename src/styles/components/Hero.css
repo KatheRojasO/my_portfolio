@@ -19,8 +19,8 @@
   font-size: 24px;
   text-transform: uppercase;
   text-align: center;
-  top: 17%;
-  left: 70%;
+  top: 28%;
+  left: -510%;
 }
 
 .title-word {
@@ -80,8 +80,8 @@
 @media screen and (min-width: 30rem) {
   .hero-title {
     font-size: 28px;
-    top: 20%;
-    left: 90%;
+    top: 30%;
+    left: -700%;
     padding: 0;
     margin: 0;
   }
@@ -89,8 +89,8 @@
 
 @media screen and (min-width: 43rem) {
   .hero-title {
-    top: 40%;
-    left: 300%;
+    top: 30%;
+    left: -1000%;
   }
 }
 
@@ -100,6 +100,6 @@
   }
 
   .hero-title {
-    left: 900%;
+    left: -1300%;
   }
 }
