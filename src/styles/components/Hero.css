@@ -3,7 +3,7 @@
   height: 100vh;
   display: flex;
   background-image: url(../../assets/img/me_hero.png);
-  background-size: 650px;
+  background-size:cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-color: var(--cream);
@@ -16,11 +16,11 @@
 .hero-title {
   position: absolute;
   font-weight: 900;
-  font-size: 24px;
+  font-size: 18px;
   text-transform: uppercase;
   text-align: center;
-  top: 28%;
-  left: -510%;
+  top: 35%;
+  left: -520%;
 }
 
 .title-word {
@@ -79,26 +79,27 @@
 
 @media screen and (min-width: 30rem) {
   .hero-title {
-    font-size: 28px;
+    font-size: 22px;
     top: 30%;
-    left: -700%;
+    left: -750%;
     padding: 0;
     margin: 0;
   }
 }
 
 @media screen and (min-width: 43rem) {
-  .hero-title {
-    top: 30%;
-    left: -1000%;
-  }
-}
-
-@media screen and (min-width: 62rem) {
   #hero {
     background-size: contain;
   }
 
+  .hero-title {
+    font-size: 28px;
+    top: 30%;
+    left: -950%;
+  }
+}
+
+@media screen and (min-width: 62rem) {
   .hero-title {
     left: -1300%;
   }
