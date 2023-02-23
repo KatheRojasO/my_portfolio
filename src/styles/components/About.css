@@ -1,16 +1,8 @@
 #about .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   position: relative;
   background-color: var(--white);
-}
-
-#about .container .title-red {
-  position: absolute;
-  top: 8px;
-  left: 24px;
-  transform: translate(5%, -5%);
 }
 
 .about-img {
@@ -24,7 +16,7 @@
 
 @media screen and (min-width: 43rem) {
   .about-img {
-    width: 350px;
+    padding-left: 30px;
   }
 
   #about .container {
@@ -34,7 +26,7 @@
 
 @media screen and (min-width: 62rem) {
   .about-img {
-    width: 400px;
+    width: 300px;
   }
 
   .paragraph-container {

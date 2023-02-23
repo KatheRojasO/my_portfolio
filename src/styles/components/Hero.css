@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Calligraffitti&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Calligraffitti&display=swap");
 
 #hero {
   width: 100vw;
@@ -11,7 +11,7 @@
 }
 
 .hero-text-up,
-.hero-text-down  {
+.hero-text-down {
   position: absolute;
   font-weight: 900;
   text-align: center;
@@ -21,7 +21,6 @@
 #hero .container img {
   width: 350px;
   padding: 100px 0 0 30px;
-  
 }
 
 .hero-text-up {
@@ -34,91 +33,40 @@
 .hero-text-down {
   width: 350px;
   font-size: 20px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   letter-spacing: 1px;
   color: white;
   top: 85%;
   left: 50%;
 }
 
-/* .title-word {
-  animation: color-animation 4s linear infinite;
-}
-
-.word-1 {
-  --color-1: #df8453;
-  --color-2: #3d8dae;
-  --color-3: #e4a9a8;
-  margin-right: 5px;
-}
-
-.word-2 {
-  --color-1: #dbad4a;
-  --color-2: #accfcb;
-  --color-3: #17494d;
-}
-
-.word-3 {
-  --color-1: #accfcb;
-  --color-2: #e4a9a8;
-  --color-3: #accfcb;
-  margin-right: 5px;
-}
-
-.word-4 {
-  --color-1: #3d8dae;
-  --color-2: #df8453;
-  --color-3: #e4a9a8;
-}
-
-@keyframes color-animation {
-  0% {
-    color: var(--color-1);
-  }
-  32% {
-    color: var(--color-1);
-  }
-  33% {
-    color: var(--color-2);
-  }
-  65% {
-    color: var(--color-2);
-  }
-  66% {
-    color: var(--color-3);
-  }
-  99% {
-    color: var(--color-3);
-  }
-  100% {
-    color: var(--color-1);
-  }
-}
-
 @media screen and (min-width: 30rem) {
-  .hero-title {
-    font-size: 22px;
-    top: 30%;
-    left: -750%;
-    padding: 0;
-    margin: 0;
+  #hero .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-text-up {
+    top: 85%;
+  }
+
+  .hero-text-down {
+    top: 95%;
   }
 }
 
 @media screen and (min-width: 43rem) {
-  #hero {
-    background-size: contain;
+  #hero .container img {
+    padding-top: 70px;
   }
 
-  .hero-title {
-    font-size: 28px;
-    top: 30%;
-    left: -950%;
+  .hero-text-up {
+    font-size: 42px;
+    top: 95%;
   }
-} */
 
-@media screen and (min-width: 62rem) {
-  .hero-title {
-    left: -1300%;
+  .hero-text-down {
+    top: 110%;
+    font-size: 26px;
   }
 }

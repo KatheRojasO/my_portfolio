@@ -1,6 +1,5 @@
 .project-info {
   cursor: pointer;
- 
 }
 
 .project-info > img {
@@ -9,13 +8,10 @@
   border-radius: 10px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1), 0 1px 20px 0 rgba(0, 0, 0, 0.19);
   transition: 0.4s;
-  
-  
 }
 
-.project-info > img:hover{
+.project-info > img:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.5);
-  
 }
 
 .project-info > p {
@@ -43,21 +39,18 @@
   align-items: center;
 }
 
-
-
 @media screen and (min-width: 43rem) {
   .project-info > p {
     font-size: 15px;
   }
 
   .project-info > img {
-    height: 110px;
-    width: 125px;
+    height: 95px;
+    width: 110px;
   }
 
   .coming-soon {
-    height: 110px;
-    width: 125px;
+    height: 95px;
+    width: 110px;
   }
 }
-
