@@ -70,3 +70,13 @@
     font-size: 26px;
   }
 }
+
+@media screen and (min-width: 62rem) {
+  .hero-text-up {
+    top: 115%;
+  }
+
+  .hero-text-down {
+    top: 130%;
+  }
+}

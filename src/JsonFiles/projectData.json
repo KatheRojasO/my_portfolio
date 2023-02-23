@@ -12,7 +12,7 @@
   {
     "id": 2,
     "name": "Vegan restaurant",
-    "description": "This project allowed me to develop cleancode practice in a multi page website. Also teaches to write complex JSON files to simulate data coming from an API.",
+    "description": "In this project I developed a multi page website where customers can see what this restaurant offers, book a table and check the real location.",
     "tech": ["JavaScript", "CSS", "React", "Firebase", "Figma", "GitHub"],
     "image": "veganrestaurant.jpg",
     "gitLink":"https://github.com/KatheRojasO/vegan-restaurant",
@@ -32,41 +32,22 @@
   {
     "id": 4,
     "name": "TTD Todo",
-    "description": "Practice Test Driven Development testing techniques on a project that every developer is familiar with, so the student focuses on learning unit testing without pressure.",
+    "description": "This wishlist allows you to add the items you want to buy. Here I learned about testing too. ",
     "tech": [
       "JavaScript",
       "CSS",
       "React",
       "GitHub",
-      "Context API",
       "FireStorage",
       "Jest"
     ],
     "image": "todo_list.jpg",
-    "gitLink":"",
-    "website": "",
-    "done": false
+    "gitLink":"https://github.com/KatheRojasO/eika_wishlist/tree/main/src",
+    "website": "https://eika-wishlist.web.app/",
+    "done": true
   },
   {
     "id": 5,
-    "name": "Ecommerce site",
-    "description": "This project allows to further develop cleancode practice in a multi page website. Also teaches to write complex JSON files to simulate data coming from an API.",
-    "tech": [
-      "JavaScript",
-      "CSS",
-      "React",
-      "GitHub",
-      "Context API",
-      "FireStorage",
-      "Jest"
-    ],
-    "image": "ecommerce.jpg",
-    "gitLink":"",
-    "website": "",
-    "done": false
-  },
-  {
-    "id": 6,
     "name": "BBQ Restaurant",
     "description": "This project combines the consumer facing site of a restaurant with the admin panel of the previous project. Students will learn to reutilize components and code from previous projects.",
     "tech": [
@@ -84,7 +65,7 @@
     "done": false
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "Learning platform",
     "description": "A small yet complete, Learning Management System (LMS) platform that allows to create student accounts and add more full stack features.",
     "tech": [
@@ -103,7 +84,7 @@
     "done": false
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "Netflix clone",
     "description": "The final project to graduate from the program. It combines all the techniques mentioned in the Tech stack while taking into consideration the UI experience.",
     "tech": [

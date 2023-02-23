@@ -54,3 +54,15 @@
     width: 110px;
   }
 }
+
+@media screen and (min-width: 62rem) {
+  .project-info > img {
+    height: 110px;
+    width: 120px;
+  }
+
+  .coming-soon {
+    height: 110px;
+    width: 120px;
+  }
+}

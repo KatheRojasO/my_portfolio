@@ -93,6 +93,13 @@
 }
 
 @media screen and (min-width: 30rem) {
+  .modal-style {
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: 570px;
+  }
+
   .modal-container > .container > p {
     font-size: 16px;
   }
@@ -100,7 +107,7 @@
 
 @media screen and (min-width: 43rem) {
   .modal-style {
-    width: 700px;
+    width: 720px;
     height: 350px;
   }
 
@@ -118,4 +125,3 @@
     margin-top: 5px;
   }
 }
-
