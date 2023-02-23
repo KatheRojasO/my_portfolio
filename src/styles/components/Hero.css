@@ -1,29 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Calligraffitti&display=swap');
+
 #hero {
   width: 100vw;
   height: 100vh;
-  display: flex;
-  background-image: url(../../assets/img/me_hero.png);
-  background-size:cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-color: var(--cream);
+  background-color: var(--green);
 }
 
 #hero .container {
+  display: flex;
+  flex-direction: column;
   position: relative;
 }
 
-.hero-title {
+.hero-text-up,
+.hero-text-down  {
   position: absolute;
   font-weight: 900;
-  font-size: 18px;
-  text-transform: uppercase;
   text-align: center;
-  top: 35%;
-  left: -520%;
+  transform: translate(-50%, -50%);
 }
 
-.title-word {
+#hero .container img {
+  width: 350px;
+  padding: 100px 0 0 30px;
+  
+}
+
+.hero-text-up {
+  font-family: 'Calligraffitti', cursive;
+  color: #b91646;
+  font-size: 38px;
+  top: 75%;
+  left: 50%;
+}
+
+.hero-text-down {
+  width: 350px;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  
+  color: white;
+  top: 85%;
+  left: 50%;
+}
+
+/* .title-word {
   animation: color-animation 4s linear infinite;
 }
 
@@ -97,7 +120,7 @@
     top: 30%;
     left: -950%;
   }
-}
+} */
 
 @media screen and (min-width: 62rem) {
   .hero-title {

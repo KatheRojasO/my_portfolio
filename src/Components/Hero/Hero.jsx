@@ -1,17 +1,18 @@
 import React from "react";
+const img = require("../../assets/img/me-hero-new.png");
 
 export default function Hero() {
   return (
     <section id="hero">
       <div className="container">
-        <h1 className="hero-title">
-          <span className="title-word word-1">Hi, I'm Katheryn</span>
-          <span className="title-word word-2">a </span>
-          <br />
-          <span className="title-word word-3">Frontend Developer</span>
-          <br />
-          <span className="title-word word-4">from Colombia</span>
-        </h1>
+        <img src={img} alt="me-hero"/>
+        <span className="hero-text-up">
+          Hello!
+        </span>
+        <span className="hero-text-down">
+          I'm Katheryn Rojas a frontend developer from Colombia based in
+          Stockholm
+        </span>
       </div>
     </section>
   );
