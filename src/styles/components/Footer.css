@@ -1,5 +1,5 @@
 .footer-section {
-  background-color: var(--blue-king);
+  background-color: var(--green);
   height: 100px;
   width: 100%;
 }
@@ -19,7 +19,7 @@
 .copy-right-text {
   font-size: 10px;
   margin: 0;
-  color: var(--mustard-yellow);
+  color: var(--yellow);
 }
 
 .social-media img {

@@ -2,10 +2,15 @@
   background-color: var(--cream);
 }
 
+#contact h2 {
+  padding: 0;
+}
+
 #contact .container li {
   list-style-type: none;
   display: flex;
   align-items: center;
+  color: var(--blue-king);
 }
 
 .icons {
