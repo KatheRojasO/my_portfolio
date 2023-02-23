@@ -1,11 +1,8 @@
 .tech-img {
   justify-content: center;
   align-items: center;
-  background: linear-gradient(
-    50deg,
-    var(--burned-yellow),
-    var(--mustard-yellow)
-  );
+  background-color: var(--green);
+  
   border-radius: 10px;
   margin: 0;
   padding: 10px;
@@ -20,6 +17,10 @@
 }
 
 .tech-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
   margin-bottom: 20px;
 }
 

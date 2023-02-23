@@ -2,19 +2,17 @@
   background-color: var(--white);
 }
 
+#tech > .container > p {
+  margin: 25px 0;
+}
+
+#tech > .container {
+  position: relative;
+}
+
 .tech-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-}
-
-.tech-card-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#tech > .container > p {
-  margin: 25px 0;
 }
 
 @media screen and (min-width: 30rem) {

@@ -11,7 +11,8 @@ export default function Tech() {
     <div id="tech">
       <div className="container">
         <div>
-          <h2>Technologies used</h2>
+          <h2 className="title-red">Project</h2>
+          <h2>Technologies</h2>
           <p>
             Here you can find the different technologies I have used during all
             this time:
