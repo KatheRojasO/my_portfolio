@@ -2,6 +2,10 @@
   background-color: var(--cream);
 }
 
+#projects .container {
+  position: relative;
+}
+
 #projects .projects-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

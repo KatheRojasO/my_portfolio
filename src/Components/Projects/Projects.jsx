@@ -11,6 +11,7 @@ export default function Projects() {
     <div id="projects">
       <div className="container">
         <div className="section-description">
+          <h2 className="title-red">Latest</h2>
           <h2>Projects</h2>
           <p>
             I've been brushing my skills as a frontend developer and here you
