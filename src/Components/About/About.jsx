@@ -1,11 +1,12 @@
 import React from "react";
-const img = require("../../assets/img/new_me.png");
+const img = require("../../assets/img/me-about.png");
 
 export default function About() {
   return (
     <div id="about">
       <div className="container">
         <div className="paragraph-container">
+          <h2 className="title-red">Introduce</h2>
           <h2>About Me</h2>
           <p>
             Hello everybody! My name is Katheryn and I’m a junior frontend

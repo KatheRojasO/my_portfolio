@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap'); 
 
 h1,
 h2 {
@@ -6,6 +7,12 @@ h2 {
   font-size: 36px;
   color: var(--blue-king);
   margin: 0;
+}
+
+.title-red, 
+.hero-text-up {
+  color: #b91646;
+  font-family: 'Calligraffitti', cursive;;
 }
 
 a {
