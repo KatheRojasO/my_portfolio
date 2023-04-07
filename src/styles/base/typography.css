@@ -33,9 +33,10 @@ p {
   font-size: 16px;
 }
 
-.modal-container > .container > p {
+.modal-container > .container > .description > p {
   margin: 0;
   padding-bottom: var(--space-small);
+  font-size: 16px;
 }
 
 @media screen and (min-width: 30rem) {
@@ -43,14 +44,16 @@ p {
     font-size: 18px;
   }
 
-  p,
+  p {
+    font-size: 22px;
+  }
+  
   .contact-info {
     font-size: 18px;
   }
 }
 
 @media screen and (min-width: 62rem) {
-  p,
   .contact-info {
     font-size: 22px;
   }

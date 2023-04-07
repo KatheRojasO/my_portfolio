@@ -32,11 +32,23 @@ export default function Modal({ open, project, onClose }) {
           <div className="container">
             <h2>{name}</h2>
             <ul className="tech-list">{techOptions}</ul>
-            <p className="description">{description}</p>
-            <a className="web-link" href={website} target="_blank" rel="noopener noreferrer">
+            <div className="description">
+              <p>{description}</p>
+            </div>
+            <a
+              className="web-link"
+              href={website}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Visit the website
             </a>
-            <a className="git-link" href={gitLink} target="_blank" rel="noopener noreferrer">
+            <a
+              className="git-link"
+              href={gitLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Git repository
             </a>
           </div>

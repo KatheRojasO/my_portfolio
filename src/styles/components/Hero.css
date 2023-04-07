@@ -62,11 +62,11 @@
 
   .hero-text-up {
     font-size: 42px;
-    top: 95%;
+    top: 100%;
   }
 
   .hero-text-down {
-    top: 110%;
+    top: 115%;
     font-size: 26px;
   }
 }

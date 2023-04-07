@@ -49,39 +49,37 @@
   {
     "id": 5,
     "name": "BBQ Restaurant",
-    "description": "This project combines the consumer facing site of a restaurant with the admin panel of the previous project. Students will learn to reutilize components and code from previous projects.",
+    "description": "In this restaurant app, as an admin you're able to administrate your restaurant menu. You can add, delete and modify the items of your menu. In this app, you don't need to login, just go to https://kathe-rojas-bbq-restaurant.web.app/dashboard",
     "tech": [
       "JavaScript",
       "CSS",
       "React",
       "GitHub",
-      "Context API",
-      "FireStorage",
-      "Jest"
+      "FireStorage"
     ],
     "image": "bbqrestaurant.jpg",
-    "gitLink":"",
-    "website": "",
-    "done": false
+    "gitLink":"https://github.com/KatheRojasO/bbq-restaurant",
+    "website": "https://kathe-rojas-bbq-restaurant.web.app/",
+    "done": true
   },
   {
     "id": 6,
     "name": "Learning platform",
-    "description": "A small yet complete, Learning Management System (LMS) platform that allows to create student accounts and add more full stack features.",
+    "description": "A small yet complete, Learning Management System (LMS) platform that allows to create student accounts and add more full stack features. For now, this app works only for teachers who can add content using katherojas@novareacademy.com as the email and kathe1234 as the password. The student feature will be developed soon",
     "tech": [
-      "Typescript",
-      "SAAS",
+      "Javascript",
+      "CSS",
       "React",
-      "GitHub",
-      "Context API",
-      "FireStorage",
+      "Reducers",
       "FireAuth",
-      "Jest"
+      "GitHub",
+      "FireStorage",
+      "ContextAPI"
     ],
     "image": "learningplatform.jpg",
-    "gitLink":"",
-    "website": "",
-    "done": false
+    "gitLink":"https://github.com/KatheRojasO/novare-academy",
+    "website": "https://novare-academy.web.app/",
+    "done": true
   },
   {
     "id": 7,
