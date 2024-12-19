@@ -5,14 +5,15 @@ export default function Hero() {
   return (
     <section id="hero">
       <div className="container">
-        <img src={img} alt="me-hero"/>
-        <span className="hero-text-up">
-          Hello!
-        </span>
-        <span className="hero-text-down">
-          I'm Katheryn Rojas a frontend developer from Colombia based in
-          Stockholm
-        </span>
+        <div className="image-container">
+          <img src={img} alt="me-hero" className="me-hero" />
+        </div>
+        <div className="text-container">
+          <span className="hero-text-up">Hello World!</span><br></br>
+          <p className="hero-text-down">
+            I'm Katheryn Rojas a frontend developer from Colombia based in Stockholm
+          </p>
+        </div>
       </div>
     </section>
   );
