@@ -14,9 +14,10 @@ export default function Projects() {
           <h2 className="title-red">Latest</h2>
           <h2>Projects</h2>
           <p>
-            I've been brushing my skills as a frontend developer and here you
-            can find my last art pieces which were created during a frontend
-            course with Novare Potencial.
+            In this section, you'll find some of the projects I've developed, showcasing both fullstack
+            and frontend development. Each project shows my ability to design and implement practical
+            solutions, solve real problems, and continuously improve my skills. These projects
+            reflect my passion for creating efficient, scalable, and user-friendly software.
           </p>
         </div>
         <div className="projects-cards">{projectCards}</div>

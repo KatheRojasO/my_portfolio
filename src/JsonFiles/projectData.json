@@ -25,8 +25,8 @@
     "description": "A project where I switch from a static JSON file to a real API call to obtain and present data from a server.",
     "tech": ["JavaScript", "CSS", "React", "Firebase", "Figma", "GitHub"],
     "image": "packagetracker.jpg",
-    "gitLink":"https://github.com/KatheRojasO/package-tracker",
-    "website": "https://instapacket.web.app/",
+    "gitLink":"https://github.com/KatheRojasO/InstaPackage",
+    "website": "https://instapackage-5439c.web.app/",
     "done": true
   },
   {
@@ -84,20 +84,39 @@
   {
     "id": 7,
     "name": "Netflix clone",
-    "description": "The final project to graduate from the program. It combines all the techniques mentioned in the Tech stack while taking into consideration the UI experience.",
+    "description": "You can create an user account anytime, and signin as an admin to add content with the email eduardo@netflix.com and the password eduardo1234 ",
     "tech": [
-      "Typescript",
-      "SAAS",
+      "Javascript",
+      "CSS",
       "React",
-      "GitHub",
-      "Context API",
-      "FireStorage",
+      "Reducers",
       "FireAuth",
-      "Jest"
+      "GitHub",
+      "FireStorage",
+      "ContextAPI"
     ],
     "image": "netflix.jpg",
-    "gitLink":"",
+    "gitLink":"https://github.com/KatheRojasO/netflix-clone",
+    "website":"https://netflix-clone-367f4.web.app/",
+    "done": true
+  },
+  {
+    "id": 8,
+    "name": "Recipe Search",
+    "description": "A web application built with Java and Spring Boot that allows users to search for recipes based on available ingredients. It simplifies meal planning by providing tailored recipe suggestions, promoting resource optimization and culinary creativity",
+    "tech": [
+      "Java",
+      "SpringBoot",
+      "PostgreSQL",
+      "JPA",
+      "Maven",
+      "TypeScript",
+      "CSS",
+      "React"
+    ],
+    "image": "ingredients.jpg",
+    "gitLink":"https://github.com/KatheRojasO/IngreDish-v2",
     "website":"",
-    "done": false
+    "done": true
   }
 ]
