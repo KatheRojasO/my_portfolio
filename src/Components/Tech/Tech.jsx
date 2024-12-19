@@ -14,8 +14,7 @@ export default function Tech() {
           <h2 className="title-red">Project</h2>
           <h2>Technologies</h2>
           <p>
-            Here you can find the different technologies I have used during all
-            this time:
+            Here you can find the different technologies I have been working with:
           </p>
         </div>
         <div className="tech-cards">{items}</div>

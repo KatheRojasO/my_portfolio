@@ -4,64 +4,69 @@
     "name": "React",
     "image": "react.png"
   },
-
   {
     "id": 2,
     "name": "Javascript",
     "image": "js.png"
   },
-
   {
     "id": 3,
     "name": "Typescript",
     "image": "ts.png"
   },
-
   {
     "id": 4,
     "name": "CSS 3",
     "image": "css.png"
   },
-
   {
     "id": 5,
     "name": "Sass",
     "image": "sass.png"
   },
-
   {
     "id": 6,
     "name": "Figma",
     "image": "figma.png"
   },
-
   {
     "id": 7,
     "name": "NodeJS",
     "image": "node.png"
   },
-
   {
     "id": 8,
     "name": "Git",
     "image": "git.png"
   },
-
   {
     "id": 9,
     "name": "Firebase",
     "image": "firebase.png"
   },
-
   {
     "id": 10,
     "name": "Mongodb",
     "image": "mongo.png"
   },
-
   {
     "id": 11,
     "name": "PostgreSQL",
     "image": "postgresql.png"
+  },
+  {
+    "id": 12,
+    "name": "Java",
+    "image": "java.png"
+  },
+  {
+    "id": 13,
+    "name": "Sprinboot",
+    "image": "springboot.png"
+  },
+  {
+    "id": 14,
+    "name": "NextJS",
+    "image": "nextjs.png"
   }
 ]
