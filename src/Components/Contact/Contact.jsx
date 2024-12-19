@@ -20,7 +20,7 @@ export default function Contact() {
           <h2>Contact</h2>
           <p>
             Here you can find my contact information in case you're interested
-            in work with me
+            in work with me:
           </p>
         </div>
         <div className="info-container">{items}</div>
