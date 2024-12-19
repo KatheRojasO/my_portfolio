@@ -9,21 +9,10 @@
 #projects .projects-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
 }
 
-.project-info p {
-  margin: 0;
-}
-
-@media screen and (min-width: 30rem) {
-  #projects .projects-cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 20px;
-  }
-}
-
-@media screen and (min-width: 43rem) {
+@media screen and (min-width: 768px) {
   #projects .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -31,6 +20,7 @@
   }
 
   #projects .projects-cards {
-    column-gap: 8px;
+    column-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
